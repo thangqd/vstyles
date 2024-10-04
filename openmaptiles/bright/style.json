@@ -40,7 +40,7 @@
       "maxzoom": 14
     }
   },
-  "sprite": "https://raw.githubusercontent.com/thangqd/vgridweb/main/public/styles/bright_style/sprite",
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/bright/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=K5aZv0bPdoXh7aus0bnv",
   "layers": [
     {

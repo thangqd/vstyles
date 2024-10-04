@@ -1,5 +1,6 @@
-# VStyles - Vector Tiles Styles Collections
+# VStyles - Collections of Vector Tile Styles
 ## openmatiles
+## vstyles
 ## mapzen
 ## mapbox
 ## shortbread

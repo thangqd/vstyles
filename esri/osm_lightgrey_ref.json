@@ -1,0 +1,5598 @@
+{
+    "version": 8,
+    "sprite": "https://cdn.arcgis.com/sharing/rest/content/items/29a71939af7a498584f44c4feca7249b/resources/styles/../sprites/sprite",
+    "glyphs": "https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf",
+    "sources": {
+        "esri": {
+            "type": "vector",
+            "url": "https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer"
+        }
+    },
+    "layers": [
+        {
+            "id": "Daylight building/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Daylight building/label",
+            "minzoom": 17,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 10,
+                "text-letter-spacing": 0.08,
+                "text-max-width": 6,
+                "text-field": "{_name}",
+                "text-padding": 3,
+                "text-line-height": 1,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "OSM major building/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OSM major building/label",
+            "minzoom": 17,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 10,
+                "text-letter-spacing": 0.08,
+                "text-max-width": 6,
+                "text-field": "{_name}",
+                "text-padding": 3,
+                "text-line-height": 1,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "OSM building/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OSM building/label",
+            "minzoom": 17,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 10,
+                "text-letter-spacing": 0.08,
+                "text-max-width": 6,
+                "text-field": "{_name}",
+                "text-padding": 3,
+                "text-line-height": 1,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "other path (tunnel)/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "other path (tunnel)/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    -0.9
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "path (tunnel)/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "path (tunnel)/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    -0.9
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "track (tunnel)/label/alternate name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "track (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "track (tunnel)/label/name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "track (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "service road (tunnel)/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "service road (tunnel)/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/pedestrian",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                13
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/living street",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                12
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/residential, unclassified shield text",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                10
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666"
+            }
+        },
+        {
+            "id": "road (tunnel)/label/residential, unclassified name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                11
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            14,
+                            300
+                        ],
+                        [
+                            16,
+                            400
+                        ]
+                    ]
+                },
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/tertiary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                9
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/secondary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                8
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/primary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                7
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/trunk name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                6
+            ],
+            "minzoom": 13,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/motorway name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 13,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (tunnel)/label/tertiary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                4
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (tunnel)/tertiary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#666666"
+            }
+        },
+        {
+            "id": "road (tunnel)/label/secondary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (tunnel)/secondary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (tunnel)/label/primary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (tunnel)/primary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (tunnel)/label/trunk shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (tunnel)/trunk shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (tunnel)/label/motorway shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 9,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (tunnel)/motorway shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "other path/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "other path/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "path/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "path/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "track/label/alternate name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "track/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-max-angle": 30,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "track/label/name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "track/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "service road/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "service road/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/raceway",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                14
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/pedestrian",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                13
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/living street",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                12
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/residential, unclassified shield text",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                10
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/residential, unclassified name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                11
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            14,
+                            300
+                        ],
+                        [
+                            16,
+                            400
+                        ]
+                    ]
+                },
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-max-angle": 30,
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/tertiary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                9
+            ],
+            "minzoom": 13,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-max-angle": 30,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/secondary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                8
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/primary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                7
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/trunk name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                6
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/motorway name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#505050",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road/label/tertiary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                4
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road/tertiary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road/label/secondary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road/secondary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road/label/primary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road/primary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road/label/trunk shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road/trunk shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road/label/motorway shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 9,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road/motorway shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "other path (bridge)/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "other path (bridge)/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    -0.9
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "path (bridge)/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "path (bridge)/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    -0.9
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "track (bridge)/label/alternate name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "track (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    -0.9
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "track (bridge)/label/name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "track (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "service road (bridge)/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "service road (bridge)/label",
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/pedestrian",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                13
+            ],
+            "minzoom": 15,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/living street",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                12
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/residential, unclassified shield text",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                10
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/residential, unclassified name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                11
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            14,
+                            300
+                        ],
+                        [
+                            16,
+                            400
+                        ]
+                    ]
+                },
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/tertiary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                9
+            ],
+            "minzoom": 13,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/secondary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                8
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/primary name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                7
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/trunk name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                6
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/motorway name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 300,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "road (bridge)/label/tertiary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                4
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (bridge)/tertiary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (bridge)/label/secondary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (bridge)/secondary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (bridge)/label/primary shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (bridge)/primary shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (bridge)/label/trunk shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (bridge)/trunk shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "road (bridge)/label/motorway shield",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "road (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 760,
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            15,
+                            10
+                        ],
+                        [
+                            17,
+                            12
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ],
+                        [
+                            17,
+                            1.6
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "icon-image": "road (bridge)/motorway shield/{_len}",
+                "icon-rotation-alignment": "viewport",
+                "text-rotation-alignment": "viewport"
+            },
+            "paint": {
+                "text-color": "#737373"
+            }
+        },
+        {
+            "id": "railway (tunnel)/label/main rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            13,
+                            300
+                        ],
+                        [
+                            16,
+                            600
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.1,
+                "text-max-width": 8,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "railway (tunnel)/label/highspeed rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway (tunnel)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            13,
+                            300
+                        ],
+                        [
+                            16,
+                            600
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.1,
+                "text-max-width": 8,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "railway/label/main rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            13,
+                            300
+                        ],
+                        [
+                            16,
+                            600
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.1,
+                "text-max-width": 8,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "railway/label/highspeed rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            13,
+                            300
+                        ],
+                        [
+                            16,
+                            600
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.1,
+                "text-max-width": 8,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "railway (bridge)/label/main rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            13,
+                            300
+                        ],
+                        [
+                            16,
+                            600
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.1,
+                "text-max-width": 8,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "railway (bridge)/label/highspeed rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway (bridge)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": {
+                    "stops": [
+                        [
+                            13,
+                            300
+                        ],
+                        [
+                            16,
+                            600
+                        ]
+                    ]
+                },
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ],
+                        [
+                            18,
+                            12
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.1,
+                "text-max-width": 8,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water area/label/water, basin, reservoir",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water area/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 7,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            7,
+                            10
+                        ],
+                        [
+                            8,
+                            11
+                        ],
+                        [
+                            12,
+                            12
+                        ],
+                        [
+                            16,
+                            13
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            7,
+                            6
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            12,
+                            8
+                        ],
+                        [
+                            16,
+                            9
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            7,
+                            1
+                        ],
+                        [
+                            8,
+                            1.13
+                        ],
+                        [
+                            12,
+                            1.16
+                        ],
+                        [
+                            16,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#788088",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "landcover/label/forest",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "landcover/label",
+            "filter": [
+                "==",
+                "_label_class",
+                31
+            ],
+            "minzoom": 12,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            15,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            12,
+                            5
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            16,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            12,
+                            1
+                        ],
+                        [
+                            12,
+                            1.15
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#889182",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "landcover/label/park",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "landcover/label",
+            "filter": [
+                "==",
+                "_label_class",
+                29
+            ],
+            "minzoom": 12,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            15,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            12,
+                            5
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            16,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            12,
+                            1
+                        ],
+                        [
+                            12,
+                            1.1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#889182",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "landcover/label/education",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "landcover/label",
+            "filter": [
+                "==",
+                "_label_class",
+                12
+            ],
+            "minzoom": 12,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            9,
+                            10
+                        ],
+                        [
+                            15,
+                            11
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            16,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            12,
+                            1.15
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "cemetery/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "cemetery/label",
+            "minzoom": 12,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            9,
+                            10
+                        ],
+                        [
+                            13,
+                            11
+                        ],
+                        [
+                            16,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            16,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            13,
+                            1.15
+                        ],
+                        [
+                            16,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#889182",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "landcover/label/sports",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "landcover/label",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 14,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            15,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            16,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            12,
+                            1.15
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "landcover/label/military",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "landcover/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 9,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            7,
+                            10
+                        ],
+                        [
+                            10,
+                            11
+                        ],
+                        [
+                            13,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            7,
+                            5
+                        ],
+                        [
+                            11,
+                            7
+                        ],
+                        [
+                            14,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            7,
+                            1
+                        ],
+                        [
+                            10,
+                            1.15
+                        ],
+                        [
+                            13,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "landcover/label/amusement park",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "landcover/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 13,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            12
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            16,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            12,
+                            1.15
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "aboriginal land/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "aboriginal land/label",
+            "minzoom": 10,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            10,
+                            10
+                        ],
+                        [
+                            12,
+                            12
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-max-width": 6,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#a0a19f",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "island/label/islet",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "island/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 11,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            9
+                        ],
+                        [
+                            12,
+                            10
+                        ],
+                        [
+                            14,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            11,
+                            7
+                        ],
+                        [
+                            14,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            10,
+                            1
+                        ],
+                        [
+                            14,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "island/label/island",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "island/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 11,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            10,
+                            11
+                        ],
+                        [
+                            13,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            11,
+                            7
+                        ],
+                        [
+                            14,
+                            8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            10,
+                            1.15
+                        ],
+                        [
+                            13,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (intermittent)/label/ditch, drain",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (intermittent)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 11,
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (intermittent)/label/stream",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (intermittent)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 11,
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (intermittent)/label/canal",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (intermittent)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 11,
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (intermittent)/label/river",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (intermittent)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            13,
+                            13
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (perennial)/label/ditch, drain",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (perennial)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 10,
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (perennial)/label/stream",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (perennial)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 14,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 11,
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (perennial)/label/canal",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (perennial)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            13,
+                            13
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "water line (perennial)/label/river",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "water line (perennial)/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 12,
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1000,
+                "text-font": [
+                    "Noto Sans Italic",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            12,
+                            11
+                        ],
+                        [
+                            13,
+                            13
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-offset": [
+                    0,
+                    -0.5
+                ],
+                "text-max-angle": 30,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#788088",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "junction area/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "junction area/label",
+            "minzoom": 15,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            16,
+                            11
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            16,
+                            1.1
+                        ]
+                    ]
+                },
+                "text-max-width": 6,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "railway station area/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "railway station area/label",
+            "minzoom": 13,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            14,
+                            11
+                        ],
+                        [
+                            15,
+                            13
+                        ]
+                    ]
+                },
+                "text-max-width": 5,
+                "text-line-height": {
+                    "stops": [
+                        [
+                            13,
+                            1
+                        ],
+                        [
+                            14,
+                            1.1
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-anchor": "top",
+                "text-offset": [
+                    0,
+                    0.8
+                ],
+                "text-optional": false
+            },
+            "paint": {
+                "text-color": "#808080",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/locality",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 15,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            15,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": 7,
+                "text-padding": {
+                    "stops": [
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            15,
+                            8.4
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            14,
+                            1.1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name6}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/neighborhood",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 14,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            15,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": 7,
+                "text-padding": {
+                    "stops": [
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            15,
+                            8.4
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            14,
+                            1.1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name5}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/quarter",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 13,
+            "maxzoom": 16,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            13,
+                            11
+                        ],
+                        [
+                            14,
+                            12
+                        ],
+                        [
+                            15,
+                            14
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            13,
+                            5
+                        ],
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-padding": {
+                    "stops": [
+                        [
+                            13,
+                            7.7
+                        ],
+                        [
+                            14,
+                            8.4
+                        ],
+                        [
+                            15,
+                            9.8
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            13,
+                            1
+                        ],
+                        [
+                            14,
+                            1.1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name4}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/square",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 16,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": 11,
+                "text-max-width": 6,
+                "text-line-height": 1.1,
+                "text-field": "{_name3}",
+                "text-letter-spacing": 0.05,
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/hamlet",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 13,
+            "maxzoom": 17,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            15,
+                            12
+                        ]
+                    ]
+                },
+                "text-max-width": 7,
+                "text-padding": {
+                    "stops": [
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            15,
+                            8.4
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            14,
+                            1.1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name2}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/village",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 11,
+            "maxzoom": 16,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            10
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            11,
+                            11
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-padding": {
+                    "stops": [
+                        [
+                            11,
+                            7
+                        ],
+                        [
+                            15,
+                            10.5
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name1}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (small)/suburb",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (small)",
+            "minzoom": 11,
+            "maxzoom": 16,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            11,
+                            11
+                        ],
+                        [
+                            12,
+                            12
+                        ],
+                        [
+                            13,
+                            14
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            11,
+                            12
+                        ],
+                        [
+                            12,
+                            13
+                        ],
+                        [
+                            13,
+                            14
+                        ],
+                        [
+                            15,
+                            15
+                        ]
+                    ]
+                },
+                "text-padding": {
+                    "stops": [
+                        [
+                            11,
+                            7.7
+                        ],
+                        [
+                            12,
+                            8.4
+                        ],
+                        [
+                            13,
+                            9.8
+                        ],
+                        [
+                            15,
+                            10.5
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            12,
+                            1.12
+                        ],
+                        [
+                            13,
+                            1.15
+                        ],
+                        [
+                            14,
+                            1.17
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.05,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (low importance)",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (low importance)",
+            "minzoom": 8,
+            "maxzoom": 15,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            8,
+                            10
+                        ],
+                        [
+                            10,
+                            11
+                        ],
+                        [
+                            11,
+                            13
+                        ],
+                        [
+                            13,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10,
+                            10
+                        ],
+                        [
+                            11,
+                            11
+                        ],
+                        [
+                            13,
+                            12
+                        ]
+                    ]
+                },
+                "text-padding": {
+                    "stops": [
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            10,
+                            7.7
+                        ],
+                        [
+                            11,
+                            8.4
+                        ],
+                        [
+                            13,
+                            10.5
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            8,
+                            1
+                        ],
+                        [
+                            10,
+                            1.13
+                        ],
+                        [
+                            11,
+                            1.16
+                        ],
+                        [
+                            13,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (medium importance)",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (medium importance)",
+            "minzoom": 4,
+            "maxzoom": 14,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            4,
+                            10
+                        ],
+                        [
+                            8,
+                            12
+                        ],
+                        [
+                            9,
+                            13
+                        ],
+                        [
+                            10,
+                            14
+                        ],
+                        [
+                            13,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": 8,
+                "text-padding": {
+                    "stops": [
+                        [
+                            4,
+                            7
+                        ],
+                        [
+                            8,
+                            8.4
+                        ],
+                        [
+                            9,
+                            9.1
+                        ],
+                        [
+                            10,
+                            9.8
+                        ],
+                        [
+                            13,
+                            10.5
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            7,
+                            1.12
+                        ],
+                        [
+                            8,
+                            1.14
+                        ],
+                        [
+                            9,
+                            1.16
+                        ],
+                        [
+                            10,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}"
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "administrative label/county level 6",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "administrative label/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 9,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-transform": "uppercase",
+                "text-size": {
+                    "stops": [
+                        [
+                            9,
+                            10
+                        ],
+                        [
+                            11,
+                            11
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            9,
+                            13
+                        ],
+                        [
+                            11,
+                            14
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            9,
+                            1.12
+                        ],
+                        [
+                            11,
+                            1.15
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#959996",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "administrative label/county level 5",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "administrative label/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 7,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-transform": "uppercase",
+                "text-size": {
+                    "stops": [
+                        [
+                            7,
+                            10
+                        ],
+                        [
+                            9,
+                            12
+                        ],
+                        [
+                            11,
+                            13
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            7,
+                            12
+                        ],
+                        [
+                            8,
+                            13
+                        ],
+                        [
+                            9,
+                            14
+                        ],
+                        [
+                            11,
+                            15
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            7,
+                            1
+                        ],
+                        [
+                            8,
+                            1.12
+                        ],
+                        [
+                            9,
+                            1.15
+                        ],
+                        [
+                            11,
+                            1.17
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#959996",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "administrative label/state",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "administrative label/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 6,
+            "maxzoom": 10,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-transform": "uppercase",
+                "text-size": {
+                    "stops": [
+                        [
+                            4,
+                            10
+                        ],
+                        [
+                            6,
+                            11
+                        ],
+                        [
+                            8,
+                            12
+                        ],
+                        [
+                            9,
+                            13
+                        ],
+                        [
+                            11,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            4,
+                            8
+                        ],
+                        [
+                            6,
+                            10
+                        ]
+                    ]
+                },
+                "text-padding": {
+                    "stops": [
+                        [
+                            4,
+                            7
+                        ],
+                        [
+                            6,
+                            7.7
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            6,
+                            1.2
+                        ],
+                        [
+                            8,
+                            1.6
+                        ],
+                        [
+                            10,
+                            1.8
+                        ]
+                    ]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#959996",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "place (high importance)",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "place (high importance)",
+            "minzoom": 3,
+            "maxzoom": 13,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            3,
+                            11
+                        ],
+                        [
+                            5,
+                            12
+                        ],
+                        [
+                            7,
+                            13
+                        ],
+                        [
+                            9,
+                            14
+                        ],
+                        [
+                            10,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": 7,
+                "text-padding": {
+                    "stops": [
+                        [
+                            3,
+                            7.7
+                        ],
+                        [
+                            5,
+                            8.4
+                        ],
+                        [
+                            7,
+                            9.1
+                        ],
+                        [
+                            9,
+                            9.8
+                        ],
+                        [
+                            10,
+                            10.5
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            1.12
+                        ],
+                        [
+                            5,
+                            1.14
+                        ],
+                        [
+                            7,
+                            1.16
+                        ],
+                        [
+                            9,
+                            1.18
+                        ],
+                        [
+                            10,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}"
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "capital",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "capital",
+            "minzoom": 3,
+            "maxzoom": 15,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Regular",
+                    "Arial Unicode MS Regular"
+                ],
+                "text-size": {
+                    "stops": [
+                        [
+                            3,
+                            11
+                        ],
+                        [
+                            5,
+                            12
+                        ],
+                        [
+                            7,
+                            13
+                        ],
+                        [
+                            9,
+                            14
+                        ],
+                        [
+                            10,
+                            15
+                        ]
+                    ]
+                },
+                "text-max-width": 6,
+                "text-padding": {
+                    "stops": [
+                        [
+                            3,
+                            7.7
+                        ],
+                        [
+                            5,
+                            8.4
+                        ],
+                        [
+                            7,
+                            9.1
+                        ],
+                        [
+                            9,
+                            9.8
+                        ],
+                        [
+                            10,
+                            10.5
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            1.12
+                        ],
+                        [
+                            5,
+                            1.14
+                        ],
+                        [
+                            7,
+                            1.16
+                        ],
+                        [
+                            9,
+                            1.18
+                        ],
+                        [
+                            10,
+                            1.2
+                        ]
+                    ]
+                },
+                "text-field": "{_name}"
+            },
+            "paint": {
+                "text-color": "#35334b",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5
+            }
+        },
+        {
+            "id": "administrative label/country",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "administrative label/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 2,
+            "maxzoom": 10,
+            "layout": {
+                "text-font": [
+                    "Noto Sans Bold"
+                ],
+                "text-transform": "uppercase",
+                "text-size": {
+                    "stops": [
+                        [
+                            2,
+                            9.5
+                        ],
+                        [
+                            3,
+                            10.5
+                        ],
+                        [
+                            4,
+                            11.5
+                        ],
+                        [
+                            6,
+                            13
+                        ],
+                        [
+                            9,
+                            14
+                        ]
+                    ]
+                },
+                "text-max-width": {
+                    "stops": [
+                        [
+                            2,
+                            6
+                        ],
+                        [
+                            3,
+                            7
+                        ],
+                        [
+                            4,
+                            8
+                        ],
+                        [
+                            6,
+                            9
+                        ],
+                        [
+                            9,
+                            10
+                        ]
+                    ]
+                },
+                "text-padding": {
+                    "stops": [
+                        [
+                            2,
+                            7
+                        ],
+                        [
+                            3,
+                            7.7
+                        ],
+                        [
+                            4,
+                            8.4
+                        ],
+                        [
+                            6,
+                            9.1
+                        ]
+                    ]
+                },
+                "text-line-height": {
+                    "stops": [
+                        [
+                            2,
+                            1.2
+                        ],
+                        [
+                            3,
+                            1.3
+                        ],
+                        [
+                            4,
+                            1.4
+                        ],
+                        [
+                            6,
+                            1.6
+                        ],
+                        [
+                            9,
+                            1.8
+                        ]
+                    ]
+                },
+                "text-letter-spacing": 0.2,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#969b98",
+                "text-halo-color": "rgba(255,255,255,0.5)",
+                "text-halo-width": 1.5,
+                "text-halo-blur": 1
+            }
+        }
+    ]
+}

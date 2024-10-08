@@ -41,7 +41,7 @@
     }
   },
   "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/bright/sprite",
-  "glyphs": "https://github.com/thangqd/vstyles/vstyles/bright/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=K5aZv0bPdoXh7aus0bnv",
   "layers": [
     {
       "id": "background",

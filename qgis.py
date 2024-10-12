@@ -18,16 +18,25 @@ esri_topography = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/e
 # esri_relief = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_relief.json'
 # esri_osm_standard = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_standard.json'
 # esri_osm_street = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_street.json'
+
+#####################################################################
+# maplibre_url='https://demotiles.maplibre.org/tiles-omt/{z}/{x}/{y}.pbf'
+# # maplibre_url = 'https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf'
+# maplibre_world = 'https://raw.githubusercontent.com/thangqd/vstyles/main/maplibre/world.json'
+# maplibre_omt = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/bright.json'
 #####################################################################
 
-maplibre = 'https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf'
+#####################################################################
+versatiles_url='https://tiles.versatiles.org/tiles/osm/{z}/{x}/{y}'
+# maplibre_url = 'https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf'
+versatiles_world = 'https://raw.githubusercontent.com/thangqd/vstyles/main/maplibre/world.json'
+versatiles_omt = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/bright.json'
+#####################################################################
 
 
+uri = f"styleUrl={maplibre_omt}&type=xyz&url={maplibre_url}"
 
-
-uri = f"styleUrl={esri_osm_street}&type=xyz&url={esri_url}"
-
-layer = QgsVectorTileLayer(uri,'ESRI')
+layer = QgsVectorTileLayer(uri,'Maplibre')
 layer.loadDefaultStyle()
 
 if layer.isValid():

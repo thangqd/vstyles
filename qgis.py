@@ -20,7 +20,7 @@ esri_topography = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/e
 # esri_osm_street = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_street.json'
 #####################################################################
 
-
+maplibre = 'https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf'
 
 
 

@@ -10,7 +10,7 @@ esri_mordern_antique = 'https://raw.githubusercontent.com/thangqd/vstyles/main/e
 esri_night = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_night.json'
 esri_topography = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_topography.json'
 # esri_watercolor = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_watercolor.json'
-# esri_blueprint = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_blueprint.json'
+esri_blueprint = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_blueprint.json'
 # esri_dark_grey_base = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_darkgrey_base.json'
 # esri_dark_grey_ref = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_darkgrey_ref.json'
 # esri_osm_hybrid = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_hybrid_ref.json'
@@ -28,13 +28,35 @@ esri_topography = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/e
 
 #####################################################################
 versatiles_url='https://tiles.versatiles.org/tiles/osm/{z}/{x}/{y}'
-# maplibre_url = 'https://demotiles.maplibre.org/tiles/{z}/{x}/{y}.pbf'
-versatiles_world = 'https://raw.githubusercontent.com/thangqd/vstyles/main/maplibre/world.json'
-versatiles_omt = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/bright.json'
+versatiles_colorful = 'https://raw.githubusercontent.com/thangqd/vstyles/main/versatiles/colorful.json'
+versatiles_eclipse = 'https://raw.githubusercontent.com/thangqd/vstyles/main/versatiles/eclipse.json'
+versatiles_neutrino = 'https://raw.githubusercontent.com/thangqd/vstyles/main/versatiles/neutrino.json'
 #####################################################################
 
+#####################################################################
+vgrid_url='https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf'
+vgrid_bright = 'https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/bright/style.json'
+#####################################################################
 
-uri = f"styleUrl={maplibre_omt}&type=xyz&url={maplibre_url}"
+#####################################################################
+omt_basic = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/basic.json'
+omt_dark = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/dark.json'
+omt_fiord = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/fiord.json'
+omt_liberty = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/osmliberty.json'
+omt_liberty_topo = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/osmlibertytopo.json'
+mot_positron = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/positron.json'
+# mot_terrain = 'https://raw.githubusercontent.com/thangqd/vstyles/refs/heads/main/openmaptiles/terrain.json'
+mot_toner = 'https://raw.githubusercontent.com/thangqd/vstyles/refs/heads/main/openmaptiles/toner.json'
+#####################################################################
+
+#####################################################################
+ne_shaded_relief = 'https://klokantech.github.io/naturalearthtiles/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png'
+ne_blended_relief = 'https://naturalearthtiles.roblabs.com/tiles/natural_earth_cross_blended_hypso_shaded_relief.raster/{z}/{x}/{y}.png'
+ne_grey_relief =  'https://map-api-new.sovereignsolutions.net/sovereign/v20240410/ne_grey/{z}/{x}/{y}.png'
+dem = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'
+#####################################################################
+
+uri = f"styleUrl={mot_toner}&type=xyz&url={vgrid_url}"
 
 layer = QgsVectorTileLayer(uri,'Maplibre')
 layer.loadDefaultStyle()

@@ -3,14 +3,15 @@ uri = "styleUrl=https://geoobserver.de/download/versatiles_styles/colorful.json&
 #####################################################################
 esri_url = 'https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf'
 esri_coloredpencil = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_coloredpencil.json'
-esri_nova= 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_nova.json'
 esri_contour = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_contour.json'
 esri_dark = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_dark.json'
 esri_mordern_antique = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_modern_antique.json'
+esri_nova= 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_nova.json'
 esri_night = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_night.json'
 esri_topography = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_topography.json'
+esri_hillshade = 'https://basemaps.arcgis.com/arcgis/rest/services/World_Hillshade_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf'
 # esri_watercolor = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_watercolor.json'
-esri_blueprint = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_blueprint.json'
+# esri_blueprint = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_blueprint.json'
 # esri_dark_grey_base = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_darkgrey_base.json'
 # esri_dark_grey_ref = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_darkgrey_ref.json'
 # esri_osm_hybrid = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/osm_hybrid_ref.json'
@@ -44,9 +45,9 @@ omt_dark = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/
 omt_fiord = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/fiord.json'
 omt_liberty = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/osmliberty.json'
 omt_liberty_topo = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/osmlibertytopo.json'
-mot_positron = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/positron.json'
+omt_positron = 'https://raw.githubusercontent.com/thangqd/vstyles/main/openmaptiles/positron.json'
 # mot_terrain = 'https://raw.githubusercontent.com/thangqd/vstyles/refs/heads/main/openmaptiles/terrain.json'
-mot_toner = 'https://raw.githubusercontent.com/thangqd/vstyles/refs/heads/main/openmaptiles/toner.json'
+omt_toner = 'https://raw.githubusercontent.com/thangqd/vstyles/refs/heads/main/openmaptiles/toner.json'
 #####################################################################
 
 #####################################################################
@@ -56,7 +57,7 @@ ne_grey_relief =  'https://map-api-new.sovereignsolutions.net/sovereign/v2024041
 dem = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'
 #####################################################################
 
-uri = f"styleUrl={mot_toner}&type=xyz&url={vgrid_url}"
+uri = f"styleUrl={omt_toner}&type=xyz&url={vgrid_url}"
 
 layer = QgsVectorTileLayer(uri,'Maplibre')
 layer.loadDefaultStyle()

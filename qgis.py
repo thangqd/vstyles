@@ -2,6 +2,10 @@ uri = "styleUrl=https://geoobserver.de/download/versatiles_styles/colorful.json&
 
 #####################################################################
 esri_url = 'https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf'
+esri_contour = 'https://basemaps.arcgis.com/arcgis/rest/services/World_Contours_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf'
+esri_hillshade = 'https://basemaps.arcgis.com/arcgis/rest/services/World_Hillshade_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf'
+esri_osm = 'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf'
+
 esri_coloredpencil = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_coloredpencil.json'
 esri_contour = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_contour.json'
 esri_dark = 'https://raw.githubusercontent.com/thangqd/vstyles/main/esri/esri_dark.json'

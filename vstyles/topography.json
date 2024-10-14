@@ -30,19 +30,12 @@
       ],
       "minzoom": 0,
       "maxzoom": 6
-    },
-    "srtm": {
-      "type": "raster",
-      "tiles": [
-        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/srtm/{z}/{x}/{y}.png"
-      ],
-      "minzoom": 7,
-      "maxzoom": 12
-    },
+    },  
+
     "TerrainSource": {
 			"type": "raster-dem",
 			"tiles": [
-        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/srtm/{z}/{x}/{y}.png"
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
       ],
       "minzoom": 7,
       "maxzoom": 12
@@ -71,14 +64,7 @@
       "maxzoom": 7,
       "paint": {"raster-opacity": 0.5}
     },
-    {
-      "id": "srtm",
-      "type": "raster",
-      "source": "srtm",
-      "maxzoom": 12,
-      "paint": {"raster-opacity": 0.5}
-    },
-
+   
     {
       "id": "landcover-glacier",
       "type": "fill",

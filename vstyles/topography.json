@@ -3169,7 +3169,8 @@
   "id": "topography",
   "terrain": {
 		"source": "TerrainSource",
-		"exaggeration":1
+		"exaggeration":1,
+    "maxzoom": 6
 	}
 }
  

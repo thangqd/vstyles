@@ -29,7 +29,7 @@
         "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
-      "maxzoom": 6
+      "maxzoom": 22
     },
     "TerrainSource": {
 			"type": "raster-dem",

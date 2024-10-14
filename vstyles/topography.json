@@ -72,7 +72,7 @@
       "paint": {"raster-opacity": 0.5}
     },
     {
-      "id": "ne",
+      "id": "srtm",
       "type": "raster",
       "source": "srtm",
       "maxzoom": 12,

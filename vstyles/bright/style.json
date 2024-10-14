@@ -41,7 +41,7 @@
     },
     "TerrainSource": {
 			"type": "raster-dem",
-			"tiles": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+			"url": "https://demotiles.maplibre.org/terrain-tiles/tiles.json"
 		},
 		"HillshadeSource": {
 			"type": "raster-dem",

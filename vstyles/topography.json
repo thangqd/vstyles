@@ -3169,7 +3169,7 @@
   "id": "topography",
   "terrain": {
 		"source": "TerrainSource",
-		"exaggeration":2
+		"exaggeration":1
 	}
 }
  

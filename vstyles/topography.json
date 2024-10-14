@@ -29,7 +29,7 @@
         "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/ne_grey/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
-      "maxzoom": 6
+      "maxzoom": 10
     },
     "TerrainSource": {
 			"type": "raster-dem",
@@ -58,7 +58,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 6,
+      "maxzoom": 10,
       "paint": {"raster-opacity": 0.5}
     },
     

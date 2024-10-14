@@ -36,7 +36,7 @@
 			"tiles": [
         "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
       ]
-  },
+    },
 		"HillshadeSource": {
 			"type": "raster-dem",
 			"tiles": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
@@ -81,6 +81,7 @@
       "maxzoom": 15,
       "paint": {"raster-opacity": 0.5}
     },
+    
     {
 			"id": "hillshade",
 			"type": "hillshade",

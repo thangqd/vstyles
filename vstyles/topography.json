@@ -81,19 +81,7 @@
       "maxzoom": 15,
       "paint": {"raster-opacity": 0.5}
     },
-    
-    {
-			"id": "hillshade",
-			"type": "hillshade",
-			"source": "HillshadeSource",
-			"layout": {
-				"visibility": "visible"
-			},
-			"paint": {
-				"hillshade-shadow-color": "#473B24"
-			}
-		},
-    
+
     {
       "id": "Contours/Contour_11_main/0",
       "type": "line",

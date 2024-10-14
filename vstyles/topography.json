@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Bright",
+  "name": "topography",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:groups": {
@@ -26,10 +26,16 @@
     "ne": {
       "type": "raster",
       "tiles": [
-        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/ne_grey/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
       "maxzoom": 6
+    },
+    "TerrainSource": {
+			"type": "raster-dem",
+			"tiles": [
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+      ]
     },
     "openmaptiles": {
       "type": "vector",
@@ -52,7 +58,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 15,
+      "maxzoom": 6,
       "paint": {"raster-opacity": 0.5}
     },
     
@@ -2459,5 +2465,10 @@
         "text-halo-width": 2
       }
     }
-  ]
+  ],
+  "id": "topography",
+  "terrain": {
+		"source": "TerrainSource",
+		"exaggeration":1
+	}
 }

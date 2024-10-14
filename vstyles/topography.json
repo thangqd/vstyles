@@ -42,8 +42,10 @@
     "TerrainSource": {
 			"type": "raster-dem",
 			"tiles": [
-        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
-      ]
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/srtm/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 7,
+      "maxzoom": 12
     },
     "openmaptiles": {
       "type": "vector",

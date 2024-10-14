@@ -68,7 +68,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 6,
+      "maxzoom": 7,
       "paint": {"raster-opacity": 0.5}
     },
     {

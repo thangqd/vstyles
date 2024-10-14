@@ -40,7 +40,7 @@
       "minzoom": 0,
       "maxzoom": 6
     },
-    
+
     "openmaptiles": {
       "type": "vector",
       "tiles": [
@@ -2469,10 +2469,5 @@
         "text-halo-width": 2
       }
     }
-  ],
-  "id": "topography",
-  "terrain": {
-		"source": "TerrainSource",
-		"exaggeration":1
-	}
+  ]
 }

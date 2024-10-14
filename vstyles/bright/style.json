@@ -2479,9 +2479,5 @@
       }
     }
   ],
-  "id": "bright",
-  "terrain": {
-		"source": "TerrainSource",
-		"exaggeration": 1
-	}
+  "id": "bright"
 }

@@ -2469,6 +2469,6 @@
   "id": "topography",
   "terrain": {
 		"source": "TerrainSource",
-		"exaggeration":0.5
+		"exaggeration":0.1
 	}
 }

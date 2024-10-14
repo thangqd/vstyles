@@ -37,9 +37,10 @@
 			"tiles": [
         "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
       ],
-      "minzoom": 7,
-      "maxzoom": 12
+      "minzoom": 0,
+      "maxzoom": 6
     },
+    
     "openmaptiles": {
       "type": "vector",
       "tiles": [
@@ -2472,6 +2473,6 @@
   "id": "topography",
   "terrain": {
 		"source": "TerrainSource",
-		"exaggeration":0.1
+		"exaggeration":1
 	}
 }

@@ -55,6 +55,15 @@
       "minzoom": 11,
       "maxzoom": 16,
       "scheme": "xyz"
+    },
+    "hillshade": {
+      "type": "vector",
+      "tiles": [
+        "https://basemaps.arcgis.com/arcgis/rest/services/World_Hillshade_v2/VectorTileServer/tile/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "scheme": "xyz"
     }
   },
   "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/bright/sprite",
@@ -2789,7 +2798,70 @@
         "text-halo-blur": 0.5,
         "text-halo-color": "#F0F0E9"
       }
+    },
+    {
+      "id": "Hillshade/Shadow Very Strong/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 0],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "#7D7D7D", "fill-antialias": false}
+    },
+    {
+      "id": "Hillshade/Shadow Strong/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 1],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "#9F9F9F", "fill-antialias": false}
+    },
+    {
+      "id": "Hillshade/Shadow Moderate/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 2],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "#AFAFAF", "fill-antialias": false}
+    },
+    {
+      "id": "Hillshade/Shadow Light/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 3],
+      "layout": {"visibility": "none"},
+      "paint": {"fill-color": "#D1D1D1", "fill-antialias": false}
+    },
+    {
+      "id": "Hillshade/Highlight Strong/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 4],
+      "layout": {"visibility": "none"},
+      "paint": {"fill-color": "#FBFBFB", "fill-antialias": false}
+    },
+    {
+      "id": "Hillshade/Highlight Light/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 5],
+      "layout": {"visibility": "none"},
+      "paint": {"fill-color": "#EDEDED", "fill-antialias": false}
+    },
+    {
+      "id": "Hillshade/Shadow Base/1",
+      "type": "fill",
+      "source": "hillshade",
+      "source-layer": "Hillshade",
+      "filter": ["==", "_symbol", 6],
+      "layout": {"visibility": "none"},
+      "paint": {"fill-color": "#DFDFDF", "fill-antialias": false}
     }
   ],
-  "id": "zywapuq"
+  "id": "topography"
 }

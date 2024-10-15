@@ -73,20 +73,14 @@
       "type": "vector",
       "tiles": [
         "https://basemaps.arcgis.com/arcgis/rest/services/World_Contours_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf"
-      ],
-      "minzoom": 11,
-      "maxzoom": 16,
-      "scheme": "xyz"
+      ]    
     },
 
     "hillshade": {
       "type": "vector",
       "tiles": [
         "https://basemaps.arcgis.com/arcgis/rest/services/World_Hillshade_v2/VectorTileServer/tile/{z}/{x}/{y}.pbf"
-      ],
-      "minzoom": 0,
-      "maxzoom": 14,
-      "scheme": "xyz"
+      ]
     }
   },
 

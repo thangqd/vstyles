@@ -31,15 +31,15 @@
       "minzoom": 0,
       "maxzoom": 6
     },
+
     "TerrainSource": {
       "type": "raster-dem",
       "tiles": [
         "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
-      ],
-      "minzoom": 0,
-      "maxzoom": 6
+      ]
     },
-  "TerrainSource2": {
+
+    "TerrainSource2": {
       "type": "raster-dem",
       "tiles": [
         "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
@@ -47,7 +47,8 @@
       "minzoom": 0,
       "maxzoom": 6
     },
-  "openmaptiles": {
+
+    "openmaptiles": {
       "type": "vector",
       "tiles": [
         "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"

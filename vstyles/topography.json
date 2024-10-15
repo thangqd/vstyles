@@ -114,7 +114,7 @@
       "source-layer": "Spot elevation",
       "minzoom": 0,
       "layout": {
-          "icon-image": "Spotheight",
+          "icon-image": "triangle_11",
           "icon-padding": 1,
           "icon-allow-overlap": true,
           "symbol-avoid-edges": true,

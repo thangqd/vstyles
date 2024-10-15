@@ -108,7 +108,7 @@
     {
       "id": "hills",
       "type": "hillshade",
-      "source": "hillshadeSource",
+      "source": "hillshade",
       "layout": {"visibility": "visible"},
       "paint": {"hillshade-shadow-color": "#473B24"}
     },

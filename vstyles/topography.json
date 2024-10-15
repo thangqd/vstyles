@@ -37,6 +37,7 @@
         "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
       ]
     },
+
     "hillshadeSource": {
       "type": "raster-dem",
       "tiles":[
@@ -66,8 +67,8 @@
       "type": "vector",
       "tiles": [
       "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf"
-    ]
-  },
+      ]
+    },
 
     "contours": {
       "type": "vector",
@@ -102,7 +103,7 @@
     {
       "id": "hills",
       "type": "hillshade",
-      "source": "hillshade",
+      "source": "hillshadeSource",
       "layout": {"visibility": "visible"},
       "paint": {"hillshade-shadow-color": "#473B24"}
     },

@@ -31,17 +31,17 @@
       "minzoom": 0,
       "maxzoom": 6
     },
-
     "terrainSource": {
       "type": "raster-dem",
       "tiles": [
         "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
       ]
     },
-
     "hillshadeSource": {
       "type": "raster-dem",
-      "tiles":"https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
+      "tiles":[
+        "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
+      ]
   },
 
     "TerrainSource2": {

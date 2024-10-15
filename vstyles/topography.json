@@ -32,12 +32,17 @@
       "maxzoom": 6
     },
 
-    "TerrainSource": {
+    "terrainSource": {
       "type": "raster-dem",
       "tiles": [
         "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
       ]
     },
+
+    "hillshadeSource": {
+      "type": "raster-dem",
+      "tiles":"https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"
+  },
 
     "TerrainSource2": {
       "type": "raster-dem",
@@ -92,6 +97,13 @@
       "source": "ne",
       "maxzoom": 7,
       "paint": {"raster-opacity": 0.5}
+    },
+    {
+      "id": "hills",
+      "type": "hillshade",
+      "source": "hillshadeSource",
+      "layout": {"visibility": "visible"},
+      "paint": {"hillshade-shadow-color": "#473B24"}
     },
     {
       "id": "landcover-glacier",
@@ -2877,7 +2889,7 @@
   ],
  "id": "topography",
   "terrain": {
-		"source": "TerrainSource",
+		"source": "terrainSource",
 		"exaggeration":1
 	}
 }

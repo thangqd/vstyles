@@ -75,7 +75,7 @@
       ]
     }
   },
-  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/topography/sprite",
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/bright/sprite",
   "glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/bright/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -2545,7 +2545,7 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": {"stops": [[11, 4], [12, 8], [13, 16], [16, 20]]},
-        "icon-image": "triangle_11",
+        "icon-image": "Depression/0",
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-size": {"stops": [[11, 0.25], [12, 0.4], [13, 0.7], [16, 1]]},
@@ -2569,7 +2569,7 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": {"stops": [[11, 4], [12, 8], [13, 16], [16, 20]]},
-        "icon-image": "triangle_11",
+        "icon-image": "Depression/0",
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-size": {"stops": [[11, 0.25], [12, 0.4], [13, 0.7], [16, 1]]},
@@ -2593,7 +2593,7 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": {"stops": [[11, 4], [12, 8], [13, 16], [16, 20]]},
-        "icon-image": "triangle_11",
+        "icon-image": "Depression/0",
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-size": {"stops": [[11, 0.25], [12, 0.4], [13, 0.7], [16, 1]]},
@@ -2611,7 +2611,7 @@
       "layout": {
         "symbol-placement": "line",
         "symbol-spacing": {"stops": [[11, 4], [12, 8], [13, 16], [16, 20]]},
-        "icon-image": "triangle_11",
+        "icon-image": "Depression/0",
         "icon-allow-overlap": true,
         "icon-ignore-placement": true,
         "icon-size": {"stops": [[11, 0.25], [12, 0.4], [13, 0.7], [16, 1]]},

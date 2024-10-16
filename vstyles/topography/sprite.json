@@ -1,1 +1,717 @@
-{"Special area of interest/Rock or gravel":{"x":0,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Water area/Ice mass":{"x":64,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Water area/Swamp or marsh":{"x":128,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Water area/Playa":{"x":192,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Special area of interest/Groundcover":{"x":256,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Water area/Inundated area":{"x":320,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Special area of interest/Sand":{"x":384,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Water area/Lake or river intermittent":{"x":448,"y":0,"width":64,"height":64,"pixelRatio":1,"sdf":false},"Pavement marking/Two-way left turn":{"x":0,"y":64,"width":50,"height":40,"pixelRatio":1,"sdf":false},"Pavement marking/Left turn":{"x":50,"y":64,"width":36,"height":36,"pixelRatio":1,"sdf":false},"Pavement marking/Right turn":{"x":86,"y":64,"width":36,"height":36,"pixelRatio":1,"sdf":false},"Tree/Oak":{"x":122,"y":64,"width":32,"height":32,"pixelRatio":1,"sdf":false},"Pavement marking/Arrow":{"x":154,"y":64,"width":14,"height":30,"pixelRatio":1,"sdf":false},"Tree/Eucalyptus":{"x":168,"y":64,"width":30,"height":30,"pixelRatio":1,"sdf":false},"Tree/Maple":{"x":198,"y":64,"width":28,"height":28,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/6":{"x":226,"y":64,"width":46,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/6":{"x":226,"y":64,"width":46,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/7":{"x":272,"y":64,"width":54,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/7":{"x":272,"y":64,"width":54,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/1":{"x":326,"y":64,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/2":{"x":326,"y":64,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/3":{"x":326,"y":64,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/3":{"x":326,"y":64,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/2":{"x":326,"y":64,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/1":{"x":326,"y":64,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/5":{"x":350,"y":64,"width":40,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/5":{"x":350,"y":64,"width":40,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf/4":{"x":390,"y":64,"width":32,"height":26,"pixelRatio":1,"sdf":false},"Road/U-shaped green leaf (Alt)/4":{"x":390,"y":64,"width":32,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/6":{"x":422,"y":64,"width":44,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/6":{"x":422,"y":64,"width":44,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/6":{"x":422,"y":64,"width":44,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/6":{"x":422,"y":64,"width":44,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/7":{"x":0,"y":104,"width":52,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/7":{"x":0,"y":104,"width":52,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/7":{"x":0,"y":104,"width":52,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/7":{"x":0,"y":104,"width":52,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/1":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/1":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/2":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/3":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/1":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/2":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/3":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/1":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/2":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/3":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/2":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/3":{"x":52,"y":104,"width":24,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/5":{"x":76,"y":104,"width":38,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/5":{"x":76,"y":104,"width":38,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/5":{"x":76,"y":104,"width":38,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/5":{"x":76,"y":104,"width":38,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white/4":{"x":114,"y":104,"width":30,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black/4":{"x":114,"y":104,"width":30,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield blue white (Alt)/4":{"x":114,"y":104,"width":30,"height":26,"pixelRatio":1,"sdf":false},"Road/Shield white black (Alt)/4":{"x":114,"y":104,"width":30,"height":26,"pixelRatio":1,"sdf":false},"Tree/Elm":{"x":144,"y":104,"width":26,"height":26,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/6":{"x":170,"y":104,"width":46,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/6":{"x":170,"y":104,"width":46,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/7":{"x":216,"y":104,"width":52,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/7":{"x":216,"y":104,"width":52,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/3":{"x":268,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/2":{"x":268,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/1":{"x":268,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/1":{"x":268,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/2":{"x":268,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/3":{"x":268,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/5":{"x":292,"y":104,"width":38,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/5":{"x":292,"y":104,"width":38,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white (Alt)/4":{"x":330,"y":104,"width":32,"height":24,"pixelRatio":1,"sdf":false},"Road/Octagon green white/4":{"x":330,"y":104,"width":32,"height":24,"pixelRatio":1,"sdf":false},"Tree/Pine":{"x":362,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Pavement marking/U-turn":{"x":386,"y":104,"width":24,"height":24,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/6":{"x":410,"y":104,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/6":{"x":410,"y":104,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/7":{"x":450,"y":104,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/7":{"x":450,"y":104,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/3":{"x":0,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/1":{"x":0,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/1":{"x":0,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/2":{"x":0,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/3":{"x":0,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/2":{"x":0,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/5":{"x":22,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/5":{"x":22,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black/4":{"x":56,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/V-shaped white black (Alt)/4":{"x":56,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/6":{"x":84,"y":130,"width":40,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/7":{"x":124,"y":130,"width":46,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/1":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/3":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/2":{"x":170,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/5":{"x":192,"y":130,"width":34,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white (Alt)/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white black (Alt)/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped red white (Alt)/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped blue white/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped yellow black (Alt)/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/U-shaped white green (Alt)/4":{"x":226,"y":130,"width":28,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/6":{"x":254,"y":130,"width":44,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/6":{"x":254,"y":130,"width":44,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/6":{"x":254,"y":130,"width":44,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/6":{"x":254,"y":130,"width":44,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/6":{"x":254,"y":130,"width":44,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/6":{"x":254,"y":130,"width":44,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/7":{"x":298,"y":130,"width":50,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/7":{"x":298,"y":130,"width":50,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/7":{"x":298,"y":130,"width":50,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/7":{"x":298,"y":130,"width":50,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/7":{"x":298,"y":130,"width":50,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/7":{"x":298,"y":130,"width":50,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/2":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/3":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/1":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/2":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/3":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/3":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/1":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/2":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/1":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/2":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/3":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/1":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/2":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/3":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/1":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/2":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/3":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/1":{"x":348,"y":130,"width":24,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/5":{"x":372,"y":130,"width":38,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/5":{"x":372,"y":130,"width":38,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/5":{"x":372,"y":130,"width":38,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/5":{"x":372,"y":130,"width":38,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/5":{"x":372,"y":130,"width":38,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/5":{"x":372,"y":130,"width":38,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black/4":{"x":410,"y":130,"width":30,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy white black (Alt)/4":{"x":410,"y":130,"width":30,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white/4":{"x":410,"y":130,"width":30,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy green white (Alt)/4":{"x":410,"y":130,"width":30,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white/4":{"x":410,"y":130,"width":30,"height":22,"pixelRatio":1,"sdf":false},"Road/Secondary Hwy red white (Alt)/4":{"x":410,"y":130,"width":30,"height":22,"pixelRatio":1,"sdf":false},"Pavement marking/Handicap":{"x":440,"y":130,"width":20,"height":22,"pixelRatio":1,"sdf":false},"Point of interest/Rail station":{"x":460,"y":130,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Point of interest/Bus station":{"x":0,"y":152,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Tree/Orange":{"x":22,"y":152,"width":22,"height":22,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/6":{"x":44,"y":152,"width":52,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/6":{"x":44,"y":152,"width":52,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/7":{"x":96,"y":152,"width":60,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/7":{"x":96,"y":152,"width":60,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/1":{"x":156,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/2":{"x":156,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/3":{"x":156,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/1":{"x":156,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/2":{"x":156,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/3":{"x":156,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/5":{"x":184,"y":152,"width":44,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/5":{"x":184,"y":152,"width":44,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black (Alt)/4":{"x":228,"y":152,"width":36,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon white black/4":{"x":228,"y":152,"width":36,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/6":{"x":264,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/7":{"x":304,"y":152,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/2":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/3":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/1":{"x":350,"y":152,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/5":{"x":372,"y":152,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black (Alt)/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green white (Alt)/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon green yellow (Alt)/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white (Alt)/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon white black (Alt)/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon blue white/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon yellow black/4":{"x":406,"y":152,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/6":{"x":434,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/6":{"x":434,"y":152,"width":40,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/7":{"x":0,"y":174,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/7":{"x":0,"y":174,"width":46,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/1":{"x":46,"y":174,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/2":{"x":46,"y":174,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/3":{"x":46,"y":174,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/1":{"x":46,"y":174,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/2":{"x":46,"y":174,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/3":{"x":46,"y":174,"width":22,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/5":{"x":68,"y":174,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/5":{"x":68,"y":174,"width":34,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black/4":{"x":102,"y":174,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Road/Pentagon inverse white black (Alt)/4":{"x":102,"y":174,"width":28,"height":20,"pixelRatio":1,"sdf":false},"Tree/Palm":{"x":130,"y":174,"width":24,"height":20,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/6":{"x":154,"y":174,"width":50,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/7":{"x":204,"y":174,"width":58,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/3":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/2":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/1":{"x":262,"y":174,"width":26,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/5":{"x":288,"y":174,"width":42,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white (Alt)/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon blue white (Alt)/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black (Alt)/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon orange black/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon green white/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Hexagon red white (Alt)/4":{"x":330,"y":174,"width":34,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/1":{"x":364,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/1":{"x":364,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/1":{"x":380,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/1":{"x":396,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/1":{"x":396,"y":174,"width":16,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/7":{"x":412,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/7":{"x":412,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/7":{"x":452,"y":174,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/7":{"x":0,"y":194,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/7":{"x":0,"y":194,"width":40,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/6":{"x":40,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/6":{"x":40,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/6":{"x":76,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/6":{"x":112,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/6":{"x":112,"y":194,"width":36,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/5":{"x":148,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/5":{"x":148,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/5":{"x":180,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/5":{"x":212,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/5":{"x":212,"y":194,"width":32,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/4":{"x":244,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/4":{"x":244,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/4":{"x":272,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/4":{"x":300,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/4":{"x":300,"y":194,"width":28,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/3":{"x":328,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/3":{"x":328,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/3":{"x":352,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/3":{"x":376,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/3":{"x":376,"y":194,"width":24,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white (Alt)/2":{"x":400,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle blue white/2":{"x":400,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white (Alt)/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green white (Alt)/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle red white/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle green yellow (Alt)/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle yellow black (Alt)/2":{"x":420,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black/2":{"x":440,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle white black (Alt)/2":{"x":440,"y":194,"width":20,"height":18,"pixelRatio":1,"sdf":false},"Tree/Spruce":{"x":460,"y":194,"width":18,"height":18,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/6":{"x":0,"y":212,"width":44,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/7":{"x":44,"y":212,"width":52,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/3":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/1":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/2":{"x":96,"y":212,"width":24,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/5":{"x":120,"y":212,"width":38,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon brown white (Alt)/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon blue white (Alt)/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon green white (Alt)/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Road/Rectangle hexagon red white (Alt)/4":{"x":158,"y":212,"width":30,"height":16,"pixelRatio":1,"sdf":false},"Shrub":{"x":188,"y":212,"width":12,"height":12,"pixelRatio":1,"sdf":false},"Water line/Levee/0":{"x":200,"y":212,"width":10,"height":12,"pixelRatio":1,"sdf":false},"Spotheight":{"x":210,"y":212,"width":10,"height":10,"pixelRatio":1,"sdf":false},"Depression/0":{"x":220,"y":212,"width":4,"height":10,"pixelRatio":1,"sdf":false},"Special area of interest line/Fence (chain link)/0":{"x":224,"y":212,"width":10,"height":10,"pixelRatio":1,"sdf":false},"City small scale/large non capital":{"x":234,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/large other capital":{"x":234,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/x large admin2 capital":{"x":242,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/x large admin1 capital":{"x":242,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/large admin0 capital":{"x":242,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/x large non capital":{"x":242,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/x large admin0 capital":{"x":242,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/medium other capital":{"x":250,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/medium non capital":{"x":250,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/small non capital":{"x":258,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/small other capital":{"x":258,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/town large non capital":{"x":266,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/town large other capital":{"x":266,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/other capital":{"x":266,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/town small non capital":{"x":266,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/medium admin0 capital":{"x":274,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/small admin0 capital":{"x":282,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/town small admin0 capital":{"x":290,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"City small scale/town large admin0 capital":{"x":290,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"Special area of interest line/Fence (metal)/0":{"x":298,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false},"Special area of interest line/Fence (wood)/0":{"x":306,"y":212,"width":8,"height":8,"pixelRatio":1,"sdf":false}}
+{
+    "airfield_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 21,
+        "y": 0
+    },
+    "airport_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 21
+    },
+    "alcohol_shop_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 21
+    },
+    "amusement_park_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 21
+    },
+    "aquarium_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 21
+    },
+    "art_gallery_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 38,
+        "y": 0
+    },
+    "attraction_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 55,
+        "y": 0
+    },
+    "bakery_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 38
+    },
+    "bank_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 38
+    },
+    "bar_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 38
+    },
+    "beer_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 38
+    },
+    "bicycle_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 55
+    },
+    "bicycle_rental_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 55
+    },
+    "bus_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 55
+    },
+    "cafe_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 55
+    },
+    "campsite_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 21
+    },
+    "car_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 21
+    },
+    "castle_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 21
+    },
+    "cemetery_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 21
+    },
+    "cinema_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 21
+    },
+    "circle_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 38
+    },
+    "circle_stroked_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 38
+    },
+    "clothing_store_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 38
+    },
+    "college_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 38
+    },
+    "dentist_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 38
+    },
+    "doctor_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 55
+    },
+    "dog_park_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 55
+    },
+    "drinking_water_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 55
+    },
+    "embassy_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 55
+    },
+    "entrance_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 55
+    },
+    "fast_food_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 72,
+        "y": 0
+    },
+    "ferry_terminal_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 89,
+        "y": 0
+    },
+    "fire_station_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 106,
+        "y": 0
+    },
+    "fuel_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 123,
+        "y": 0
+    },
+    "garden_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 140,
+        "y": 0
+    },
+    "golf_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 72
+    },
+    "grocery_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 72
+    },
+    "harbor_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 72
+    },
+    "heliport_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 72
+    },
+    "hospital_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 72
+    },
+    "ice_cream_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 72
+    },
+    "information_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 72
+    },
+    "laundry_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 72
+    },
+    "library_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 72
+    },
+    "lodging_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 89
+    },
+    "marker_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 89
+    },
+    "monument_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 89
+    },
+    "mountain_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 89
+    },
+    "museum_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 89
+    },
+    "music_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 89
+    },
+    "oneway": {
+        "height": 21,
+        "pixelRatio": 1,
+        "width": 21,
+        "x": 0,
+        "y": 0
+    },
+    "park_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 89
+    },
+    "pharmacy_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 89
+    },
+    "picnic_site_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 89
+    },
+    "pitch_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 106
+    },
+    "place_of_worship_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 106
+    },
+    "playground_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 106
+    },
+    "police_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 106
+    },
+    "post_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 106
+    },
+    "prison_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 106
+    },
+    "rail_light_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 106
+    },
+    "rail_metro_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 106
+    },
+    "railway_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 106
+    },
+    "religious_christian_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 123
+    },
+    "religious_jewish_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 123
+    },
+    "religious_muslim_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 123
+    },
+    "restaurant_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 123
+    },
+    "road_1": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 14,
+        "x": 280,
+        "y": 21
+    },
+    "road_2": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 20,
+        "x": 294,
+        "y": 21
+    },
+    "road_3": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 25,
+        "x": 153,
+        "y": 38
+    },
+    "road_4": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 31,
+        "x": 178,
+        "y": 38
+    },
+    "road_5": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 36,
+        "x": 209,
+        "y": 38
+    },
+    "road_6": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 40,
+        "x": 245,
+        "y": 38
+    },
+    "rocket_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 123
+    },
+    "school_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 123
+    },
+    "shop_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 123
+    },
+    "stadium_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 123
+    },
+    "star_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 123
+    },
+    "suitcase_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 140
+    },
+    "swimming_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 140
+    },
+    "theatre_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 34,
+        "y": 140
+    },
+    "toilet_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 51,
+        "y": 140
+    },
+    "town_hall_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 68,
+        "y": 140
+    },
+    "triangle_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 85,
+        "y": 140
+    },
+    "triangle_stroked_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 102,
+        "y": 140
+    },
+    "us-highway_1": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 119,
+        "y": 140
+    },
+    "us-highway_2": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 136,
+        "y": 140
+    },
+    "us-highway_3": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 21,
+        "x": 153,
+        "y": 21
+    },
+    "us-interstate_1": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 174,
+        "y": 21
+    },
+    "us-interstate_2": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 191,
+        "y": 21
+    },
+    "us-interstate_3": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 21,
+        "x": 208,
+        "y": 21
+    },
+    "us-state_1": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 314,
+        "y": 21
+    },
+    "us-state_2": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 22,
+        "x": 285,
+        "y": 38
+    },
+    "us-state_3": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 27,
+        "x": 307,
+        "y": 38
+    },
+    "us-state_4": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 32,
+        "x": 153,
+        "y": 55
+    },
+    "us-state_5": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 37,
+        "x": 185,
+        "y": 55
+    },
+    "us-state_6": {
+        "height": 14,
+        "pixelRatio": 1,
+        "width": 42,
+        "x": 222,
+        "y": 55
+    },
+    "veterinary_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 229,
+        "y": 21
+    },
+    "volcano_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 246,
+        "y": 21
+    },
+    "wave": {
+        "height": 8,
+        "pixelRatio": 1,
+        "width": 16,
+        "x": 264,
+        "y": 55
+    },
+    "zoo_11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 263,
+        "y": 21
+    },
+    "newsprite": {
+        "frame": {
+            "x": 0,
+            "y": 157,
+            "w": 512,
+            "h": 228
+        }
+    }
+}

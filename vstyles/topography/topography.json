@@ -136,100 +136,7 @@
         "text-halo-blur": 1
       }
     },
-    {
-      "id": "vn_marine",
-      "type": "symbol",
-      "source": "vn_islands",
-      "source-layer": "vn_marine",
-      "layout": {
-          "text-field": "{name}",
-          "text-font": [ "Noto Sans Italic" ],
-          "text-transform": "uppercase",
-          "text-size": {
-              "stops": [
-                  [ 4, 16 ],
-                  [ 12, 40 ]
-              ]
-          },
-          "text-letter-spacing": {
-              "stops": [
-                  [ 0, 0.1 ],
-                  [ 10, 0.5 ]
-              ]
-          },
-          "symbol-placement": "line"
-      },
-      "paint": {
-          "text-color": "#111",
-          "text-halo-color": "#fff",
-          "text-halo-width": {
-              "stops": [
-                  [ 8, 1 ],
-                  [ 14, 2 ]
-              ]
-          },
-          "text-halo-blur": 0,
-          "text-opacity": {
-              "stops": [
-                  [ 0, 0.5 ],
-                  [ 10, 1 ]
-              ]
-          }
-      }
-  },
-  {
-    "id": "vn_islands_name",
-    "source": "vn_islands",
-    "source-layer": "vn_islands_name",
-    "type": "symbol",
-    "minzoom": 2,
-    "layout": {
-      "text-field": "{name}",
-      "text-font": ["Noto Sans Medium"],
-      "text-size": {
-        "base": 1,
-        "stops": [[4, 10], [19, 18]]
-      }
-    },
-    "paint": {
-      "text-color": "#005291",
-      "text-halo-color": "#fff",
-      "text-halo-width": 1
-    }
-  },
-  {
-    "id": "vn_islands_point",
-    "source": "vn_islands",
-    "source-layer": "vn_islands_point",
-    "type": "symbol",
-    "minzoom": 4,
-    "layout": {
-        "text-field": "{name}",
-        "text-font": [ "Noto Sans Medium" ],
-        "text-size": {
-            "base": 1,
-            "stops": [
-                [ 4, 10 ],
-                [ 19, 18 ]
-            ]
-        }
-    },
-    "paint": {
-        "text-color": "#005291",
-        "text-halo-color": "#fff",
-        "text-halo-width": 1
-    }
-  },
-  {
-      "id": "vn_islands",
-      "source": "vn_islands",
-      "source-layer": "vn_islands",
-      "type": "fill",
-      "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
-  },
- 
-
-    {
+   {
       "id": "landcover-glacier",
       "type": "fill",
       "metadata": {"mapbox:group": "1444849388993.3071"},
@@ -3009,8 +2916,100 @@
       "filter": ["==", "_symbol", 6],
       "layout": {"visibility": "none"},
       "paint": {"fill-color": "#DFDFDF", "fill-antialias": false}
+    },
+   
+  {
+      "id": "vn_islands",
+      "source": "vn_islands",
+      "source-layer": "vn_islands",
+      "type": "fill",
+      "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
+  },
+  {
+    "id": "vn_marine",
+    "type": "symbol",
+    "source": "vn_islands",
+    "source-layer": "vn_marine",
+    "layout": {
+        "text-field": "{name}",
+        "text-font": [ "Noto Sans Italic" ],
+        "text-transform": "uppercase",
+        "text-size": {
+            "stops": [
+                [ 4, 16 ],
+                [ 12, 40 ]
+            ]
+        },
+        "text-letter-spacing": {
+            "stops": [
+                [ 0, 0.1 ],
+                [ 10, 0.5 ]
+            ]
+        },
+        "symbol-placement": "line"
+    },
+    "paint": {
+        "text-color": "#111",
+        "text-halo-color": "#fff",
+        "text-halo-width": {
+            "stops": [
+                [ 8, 1 ],
+                [ 14, 2 ]
+            ]
+        },
+        "text-halo-blur": 0,
+        "text-opacity": {
+            "stops": [
+                [ 0, 0.5 ],
+                [ 10, 1 ]
+            ]
+        }
     }
-  
+},
+  {
+    "id": "vn_islands_point",
+    "source": "vn_islands",
+    "source-layer": "vn_islands_point",
+    "type": "symbol",
+    "minzoom": 4,
+    "layout": {
+        "text-field": "{name}",
+        "text-font": [ "Noto Sans Medium" ],
+        "text-size": {
+            "base": 1,
+            "stops": [
+                [ 4, 10 ],
+                [ 19, 18 ]
+            ]
+        }
+    },
+    "paint": {
+        "text-color": "#005291",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1
+    }
+  },
+  {
+    "id": "vn_islands_name",
+    "source": "vn_islands",
+    "source-layer": "vn_islands_name",
+    "type": "symbol",
+    "minzoom": 2,
+    "layout": {
+      "text-field": "{name}",
+      "text-font": ["Noto Sans Medium"],
+      "text-size": {
+        "base": 1,
+        "stops": [[4, 10], [19, 18]]
+      }
+    },
+    "paint": {
+      "text-color": "#005291",
+      "text-halo-color": "#fff",
+      "text-halo-width": 1
+    }
+  }
+ 
   ],
   "id": "topography"
 }

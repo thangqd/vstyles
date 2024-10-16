@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "esri-style-ft-mapbox-style": "^0.0.3"
-  }
-}

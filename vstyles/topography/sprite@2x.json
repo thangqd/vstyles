@@ -4926,174 +4926,174 @@
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 834
     },
     "conical": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 898
     },
     "flag-1": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 962
     },
     "flag-2": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1026
     },
     "flag": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1090
     },
     "pagoda": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1154
     },
     "travel": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1218
     },
     "vietnam-1": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1282
     },
     "vietnam-10": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1346
     },
     "vietnam-11": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1410
     },
     "vietnam-12": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1474
     },
     "vietnam-13": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1538
     },
     "vietnam-14": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1602
     },
     "vietnam-2": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1666
     },
     "vietnam-3": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1730
     },
     "vietnam-4": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1794
     },
     "vietnam-5": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1858
     },
     "vietnam-6": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1922
     },
     "vietnam-7": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 1986
     },
     "vietnam-8": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 2050
     },
     "vietnam-9": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 2114
     },
     "vietnam": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 2178
     },
     "vietnamese-1": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 2242
     },
     "vietnamese": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 2306
     },
     "world": {
         "width": 64,
         "height": 64,
         "pixelRatio": 1,
         "x": 0,
-        "y": 770
+        "y": 2370
     }
 }

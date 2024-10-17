@@ -30,7 +30,7 @@
         "https://server.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
       ],
       "minzoom": 0,
-      "maxzoom": 8
+      "maxzoom": 9
     },
     "terrainSource": {
       "type": "raster-dem",
@@ -95,7 +95,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 10,
+      "maxzoom": 9,
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 0.5}
     },

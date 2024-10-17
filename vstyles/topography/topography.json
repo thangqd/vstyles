@@ -2921,7 +2921,7 @@
       "source-layer": "vn_marine",
       "layout": {
         "text-field": "{name}",
-        "text-font": ["Noto Sans Italic"],
+        "text-font": ["Open Sans Regular"],
         "text-transform": "uppercase",
         "text-size": {"stops": [[4, 16], [12, 40]]},
         "text-letter-spacing": {"stops": [[0, 0.1], [10, 0.5]]},
@@ -2943,7 +2943,7 @@
       "minzoom": 4,
       "layout": {
         "text-field": "{name}",
-        "text-font": ["Noto Sans Medium"],
+        "text-font": ["Open Sans Regular"],
         "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
       },
       "paint": {
@@ -2960,7 +2960,7 @@
       "minzoom": 2,
       "layout": {
         "text-field": "{name}",
-        "text-font": ["Noto Sans Medium"],
+        "text-font": ["Open Sans Regular"],
         "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
       },
       "paint": {

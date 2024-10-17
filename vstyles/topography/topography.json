@@ -2937,7 +2937,6 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "vn_islands_name",
-      "minzoom": 2,
       "layout": {
         "text-field": "{name}",
         "text-max-width": 10,

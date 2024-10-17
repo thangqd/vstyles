@@ -56,6 +56,14 @@
       "minzoom": 0,
       "maxzoom": 14
     },  
+    "vn_islands": {
+      "type": "vector",
+      "tiles": [
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
+    },
     "esri": {
       "type": "vector",
       "tiles": [
@@ -2910,14 +2918,14 @@
     {
       "id": "vn_islands",
       "type": "fill",
-      "source": "openmaptiles",
+      "source": "vn_islands",
       "source-layer": "vn_islands",
       "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
     },
     {
       "id": "vn_islands_point",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "vn_islands",
       "source-layer": "vn_islands_point",
       "minzoom": 6,
       "layout": {
@@ -2935,7 +2943,7 @@
     {
       "id": "vn_islands_name",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "vn_islands",
       "source-layer": "vn_islands_name",
       "minzoom": 1,
       "layout": {
@@ -2954,7 +2962,7 @@
     {
       "id": "vn_marine",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "vn_islands",
       "source-layer": "vn_marine",
       "layout": {
         "text-field": "{name}",

@@ -88,7 +88,7 @@
       "type": "raster",
       "source": "ne",
       "maxzoom": 7,
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 0.5}
     },
     {
@@ -391,7 +391,7 @@
       "source-layer": "water",
       "maxzoom": 8,
       "filter": ["==", "$type", "Polygon"],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {
         "fill-color": "#a0c8f0",
         "fill-opacity": 1,
@@ -405,7 +405,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["!=", "intermittent", 1], ["!=", "brunnel", "tunnel"]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "hsl(210, 67%, 85%)"}
     },
     {
@@ -415,7 +415,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["==", "intermittent", 1]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "hsl(210, 67%, 85%)", "fill-opacity": 0.7}
     },
     {
@@ -425,7 +425,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all"],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-pattern": "wave", "fill-translate": [0, 2.5]}
     },
     {
@@ -435,7 +435,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["==", "subclass", "ice_shelf"],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {
         "fill-color": "#fff",
         "fill-opacity": {"base": 1, "stops": [[0, 0.9], [10, 0.3]]}
@@ -448,7 +448,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["all", ["==", "class", "sand"]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
     },
     {
@@ -1738,7 +1738,7 @@
         ["<=", "admin_level", 8],
         ["!=", "maritime", 1]
       ],
-      "layout": {"line-join": "round", "visibility": "none"},
+      "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
         "line-color": "#9e9cab",
         "line-dasharray": [3, 1, 1, 1],
@@ -1759,7 +1759,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "line-color": "hsl(248, 7%, 66%)",
@@ -1778,7 +1778,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "line-color": "hsl(248, 7%, 70%)",
@@ -1799,7 +1799,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "line-color": "rgba(154, 189, 214, 1)",

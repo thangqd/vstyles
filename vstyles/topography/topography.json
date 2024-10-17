@@ -27,7 +27,7 @@
     "ne": {
       "type": "raster",
       "tiles": [
-        "https://klokantech.github.io/naturalearthtiles/tiles/natural_earth_gray_hypso_shaded_relief.raster/{z}/{x}/{y}.png"
+        "https://klokantech.github.io/naturalearthtiles/tiles/natural_earth_shaded_relief.raster/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
       "maxzoom": 6

@@ -48,14 +48,14 @@ def append_sprite_and_json_vertically(existing_sprite_path, new_sprite_path, exi
 
 # Example usage
 append_sprite_and_json_vertically(
-    existing_sprite_path='./vstyles/topography/sprite.png',
-    new_sprite_path='./vstyles/vnsprite/sprite.png',
+    existing_sprite_path='./vstyles/topo_backup/sprite@2x.png',
+    new_sprite_path='./vstyles/vnsprite/sprite@2x.png',
    
-    existing_json_path='./vstyles/topography/sprite.json',
-    new_json_path='./vstyles/vnsprite/sprite.json',
+    existing_json_path='./vstyles/topo_backup/sprite@2x.json',
+    new_json_path='./vstyles/vnsprite/sprite@2x.json',
    
-    output_sprite_path='./vstyles/new/sprite.png',
-    output_json_path='./vstyles/new/sprite.json',
+    output_sprite_path='./vstyles/topography/sprite@2x.png',
+    output_json_path='./vstyles/topography/sprite@2x.json',
 
     new_sprite_name='vsprite'
 )

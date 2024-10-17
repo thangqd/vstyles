@@ -95,7 +95,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 7,
+      "maxzoom": 10,
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 0.5}
     },

@@ -67,6 +67,7 @@
       "type": "symbol",
       "source": "vn_islands",
       "source-layer": "vn_islands_name",
+      "minzoom": 1,
       "layout": {
         "text-field": "{name}",
         "text-max-width": 10,

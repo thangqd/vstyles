@@ -2935,9 +2935,9 @@
         "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
       },
       "paint": {
-        "text-color": "#005291",
+        "text-color": "#000000",
         "text-halo-color": "#fff",
-        "text-halo-width": 2
+        "text-halo-width": 1
       }
     },
     {

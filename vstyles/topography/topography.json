@@ -56,16 +56,6 @@
       "minzoom": 0,
       "maxzoom": 14
     },
-
-    "vn_islands": {
-      "type": "vector",
-      "tiles": [
-        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
-      ],
-      "minzoom": 0,
-      "maxzoom": 14
-    },
-
     "esri": {
       "type": "vector",
       "tiles": [
@@ -98,7 +88,7 @@
       "type": "raster",
       "source": "ne",
       "maxzoom": 7,
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {"raster-opacity": 0.5}
     },
     {
@@ -136,7 +126,7 @@
         "text-halo-blur": 1
       }
     },
-   {
+    {
       "id": "landcover-glacier",
       "type": "fill",
       "metadata": {"mapbox:group": "1444849388993.3071"},
@@ -401,7 +391,7 @@
       "source-layer": "water",
       "maxzoom": 8,
       "filter": ["==", "$type", "Polygon"],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {
         "fill-color": "#a0c8f0",
         "fill-opacity": 1,
@@ -415,7 +405,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["!=", "intermittent", 1], ["!=", "brunnel", "tunnel"]],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {"fill-color": "hsl(210, 67%, 85%)"}
     },
     {
@@ -425,7 +415,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["==", "intermittent", 1]],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {"fill-color": "hsl(210, 67%, 85%)", "fill-opacity": 0.7}
     },
     {
@@ -435,7 +425,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all"],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {"fill-pattern": "wave", "fill-translate": [0, 2.5]}
     },
     {
@@ -445,7 +435,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["==", "subclass", "ice_shelf"],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {
         "fill-color": "#fff",
         "fill-opacity": {"base": 1, "stops": [[0, 0.9], [10, 0.3]]}
@@ -458,7 +448,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["all", ["==", "class", "sand"]],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
     },
     {
@@ -1748,7 +1738,7 @@
         ["<=", "admin_level", 8],
         ["!=", "maritime", 1]
       ],
-      "layout": {"line-join": "round", "visibility": "visible"},
+      "layout": {"line-join": "round", "visibility": "none"},
       "paint": {
         "line-color": "#9e9cab",
         "line-dasharray": [3, 1, 1, 1],
@@ -1769,7 +1759,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "hsl(248, 7%, 66%)",
@@ -1788,7 +1778,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "hsl(248, 7%, 70%)",
@@ -1809,7 +1799,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "rgba(154, 189, 214, 1)",
@@ -2917,99 +2907,68 @@
       "layout": {"visibility": "none"},
       "paint": {"fill-color": "#DFDFDF", "fill-antialias": false}
     },
-   
-  {
+    {
       "id": "vn_islands",
-      "source": "vn_islands",
-      "source-layer": "vn_islands",
       "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "vn_islands",
       "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
-  },
-  {
-    "id": "vn_marine",
-    "type": "symbol",
-    "source": "vn_islands",
-    "source-layer": "vn_marine",
-    "layout": {
-        "text-field": "{name}",
-        "text-font": [ "Noto Sans Italic" ],
-        "text-transform": "uppercase",
-        "text-size": {
-            "stops": [
-                [ 4, 16 ],
-                [ 12, 40 ]
-            ]
-        },
-        "text-letter-spacing": {
-            "stops": [
-                [ 0, 0.1 ],
-                [ 10, 0.5 ]
-            ]
-        },
-        "symbol-placement": "line"
     },
-    "paint": {
+    {
+      "id": "vn_marine",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "vn_marine",
+      "layout": {
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Italic"],
+        "text-transform": "uppercase",
+        "text-size": {"stops": [[4, 16], [12, 40]]},
+        "text-letter-spacing": {"stops": [[0, 0.1], [10, 0.5]]},
+        "symbol-placement": "line"
+      },
+      "paint": {
         "text-color": "#111",
         "text-halo-color": "#fff",
-        "text-halo-width": {
-            "stops": [
-                [ 8, 1 ],
-                [ 14, 2 ]
-            ]
-        },
+        "text-halo-width": {"stops": [[8, 1], [14, 2]]},
         "text-halo-blur": 0,
-        "text-opacity": {
-            "stops": [
-                [ 0, 0.5 ],
-                [ 10, 1 ]
-            ]
-        }
-    }
-},
-  {
-    "id": "vn_islands_point",
-    "source": "vn_islands",
-    "source-layer": "vn_islands_point",
-    "type": "symbol",
-    "minzoom": 4,
-    "layout": {
-        "text-field": "{name}",
-        "text-font": [ "Noto Sans Medium" ],
-        "text-size": {
-            "base": 1,
-            "stops": [
-                [ 4, 10 ],
-                [ 19, 18 ]
-            ]
-        }
+        "text-opacity": {"stops": [[0, 0.5], [10, 1]]}
+      }
     },
-    "paint": {
+    {
+      "id": "vn_islands_point",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "vn_islands_point",
+      "minzoom": 4,
+      "layout": {
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Medium"],
+        "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
+      },
+      "paint": {
         "text-color": "#005291",
         "text-halo-color": "#fff",
         "text-halo-width": 1
-    }
-  },
-  {
-    "id": "vn_islands_name",
-    "source": "vn_islands",
-    "source-layer": "vn_islands_name",
-    "type": "symbol",
-    "minzoom": 2,
-    "layout": {
-      "text-field": "{name}",
-      "text-font": ["Noto Sans Medium"],
-      "text-size": {
-        "base": 1,
-        "stops": [[4, 10], [19, 18]]
       }
     },
-    "paint": {
-      "text-color": "#005291",
-      "text-halo-color": "#fff",
-      "text-halo-width": 1
+    {
+      "id": "vn_islands_name",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "vn_islands_name",
+      "minzoom": 2,
+      "layout": {
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Medium"],
+        "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
+      },
+      "paint": {
+        "text-color": "#005291",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1
+      }
     }
-  }
- 
   ],
   "id": "topography"
 }

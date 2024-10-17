@@ -2927,7 +2927,7 @@
       "type": "symbol",
       "source": "vn_islands",
       "source-layer": "vn_islands_point",
-      "minzoom": 4,
+      "minzoom": 6,
       "layout": {
         "text-field": "{name}",
         "text-max-width": 10,

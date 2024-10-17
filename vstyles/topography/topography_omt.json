@@ -51,7 +51,7 @@
     "openmaptiles": {
       "type": "vector",
       "tiles": [
-        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"
+        "https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.pbf?key=j10Zjy4taAQRqFFqV18c"
       ],
       "minzoom": 0,
       "maxzoom": 14
@@ -73,6 +73,15 @@
       "tiles": [
         "https://basemaps.arcgis.com/arcgis/rest/services/World_Hillshade_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf"
       ]
+    },
+    "vn_islands": {
+      "type": "vector",
+      "tiles": [
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "scheme": "xyz"
     }
   },
   "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/topography/sprite",
@@ -2915,6 +2924,28 @@
       "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
     },
     {
+      "id": "vn_marine",
+      "type": "symbol",
+      "source": "vn_islands",
+      "source-layer": "vn_marine",
+      "layout": {
+        "text-field": "{name}",
+        "text-font": ["Open Sans Regular"],
+        "text-transform": "uppercase",
+        "text-size": {"stops": [[4, 16], [12, 40]]},
+        "text-letter-spacing": {"stops": [[0, 0.1], [10, 0.5]]},
+        "symbol-placement": "line",
+        "symbol-z-order": "source"
+      },
+      "paint": {
+        "text-color": "#111",
+        "text-halo-color": "#fff",
+        "text-halo-width": {"stops": [[8, 1], [14, 2]]},
+        "text-halo-blur": 0,
+        "text-opacity": {"stops": [[0, 0.5], [10, 1]]}
+      }
+    },
+    {
       "id": "vn_islands_point",
       "type": "symbol",
       "source": "vn_islands",
@@ -2922,14 +2953,13 @@
       "minzoom": 4,
       "layout": {
         "text-field": "{name}",
-        "text-max-width": 10,
-        "text-writing-mode": ["horizontal"],
+        "text-font": ["Open Sans Regular"],
         "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
       },
       "paint": {
         "text-color": "#005291",
         "text-halo-color": "#fff",
-        "text-halo-width": 2
+        "text-halo-width": 1
       }
     },
     {
@@ -2940,36 +2970,13 @@
       "minzoom": 2,
       "layout": {
         "text-field": "{name}",
-        "text-max-width": 10,
-        "text-writing-mode": ["horizontal"],
-        "text-size": {"base": 1, "stops": [[4, 12], [19, 20]]},
-        "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"]
+        "text-font": ["Open Sans Regular"],
+        "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
       },
       "paint": {
         "text-color": "#005291",
         "text-halo-color": "#fff",
-        "text-halo-width": 2
-      }
-    },
-    {
-      "id": "vn_marine",
-      "type": "symbol",
-      "source": "vn_islands",
-      "source-layer": "vn_marine",
-      "layout": {
-        "text-field": "{name}",
-        "text-transform": "uppercase",
-        "text-size": {"stops": [[4, 16], [12, 40]]},
-        "text-letter-spacing": {"stops": [[0, 0.1], [10, 0.5]]},
-        "symbol-placement": "line",
-        "symbol-z-order": "source"
-      },
-      "paint": {
-        "text-color": "#111",
-        "text-opacity": {"stops": [[0, 0.5], [10, 1]]},
-        "text-halo-color": "#fff",
-        "text-halo-width": {"stops": [[8, 1], [14, 2]]},
-        "icon-opacity": {"stops": [[0, 0.5], [10, 1]]}
+        "text-halo-width": 1
       }
     }
   ],

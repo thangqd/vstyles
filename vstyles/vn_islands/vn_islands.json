@@ -13,10 +13,10 @@
     "ne": {
       "type": "raster",
       "tiles": [
-        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/ne_grey/{z}/{x}/{y}.png"
+        "https://server.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
       ],
       "minzoom": 0,
-      "maxzoom": 10
+      "maxzoom": 9
     },
     "vn_islands": {
       "type": "vector",
@@ -33,7 +33,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 6,
+      "maxzoom": 9,
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 0.5}
     },
@@ -57,7 +57,7 @@
         "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
       },
       "paint": {
-        "text-color": "#005291",
+        "text-color": "#000000",
         "text-halo-color": "#fff",
         "text-halo-width": 2
       }

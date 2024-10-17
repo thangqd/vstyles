@@ -56,6 +56,14 @@
       "minzoom": 0,
       "maxzoom": 14
     },
+    "vn_islands": {
+      "type": "vector",
+      "tiles": [
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
+    },
     "esri": {
       "type": "vector",
       "tiles": [

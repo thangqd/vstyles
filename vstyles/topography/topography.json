@@ -2946,7 +2946,7 @@
         "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"]
       },
       "paint": {
-        "text-color": "#005291",
+        "text-color": "#000000",
         "text-halo-color": "#fff",
         "text-halo-width": 2
       }

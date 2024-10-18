@@ -1,79 +1,52 @@
 import json
 from PIL import Image
 
-def append_sprite_and_json_vertically(existing_sprite_path, new_sprite_path, existing_json_path, new_json_path, output_sprite_path, output_json_path, new_sprite_name):
-    """
-    Appends a new sprite image and its JSON data vertically to an existing sprite sheet.
-    """
-    try:
-        # Open the existing sprite sheet and the new sprite image
-        existing_sprite = Image.open(existing_sprite_path)
-        new_sprite = Image.open(new_sprite_path)
-    except Exception as e:
-        print(f"Error opening image files: {e}")
-        return
+def merge_sprites_and_json(sprite_image_1_path, json_1_path, sprite_image_2_path, json_2_path, output_image_path, output_json_path):
+    # Open the sprite images
+    image1 = Image.open(sprite_image_1_path)
+    image2 = Image.open(sprite_image_2_path)
 
-    try:
-        # Load existing JSON data
-        with open(existing_json_path, 'r') as f:
-            existing_sprite_json = json.load(f)
-        
-        # Load the new JSON data
-        with open(new_json_path, 'r') as f:
-            new_sprite_json = json.load(f)
-    except Exception as e:
-        print(f"Error loading JSON files: {e}")
-        return
+    # Load the JSON files
+    with open(json_1_path, 'r') as f1, open(json_2_path, 'r') as f2:
+        sprite_json_1 = json.load(f1)
+        sprite_json_2 = json.load(f2)
 
     # Get dimensions of both images
-    width_existing, height_existing = existing_sprite.size
-    width_new, height_new = new_sprite.size
-    
-    # Calculate the new dimensions for the sprite sheet (vertical append)
-    total_width = max(width_existing, width_new)
-    total_height = height_existing + height_new
-    new_sprite_sheet = Image.new('RGBA', (total_width, total_height))
-    
-    # Paste existing sprite at the top
-    new_sprite_sheet.paste(existing_sprite, (0, 0))
-    
-    # Paste new sprite below the existing one
-    new_sprite_sheet.paste(new_sprite, (0, height_existing))
-    
-    # Start y position below the existing sprites
-    current_y = height_existing
+    width1, height1 = image1.size
+    width2, height2 = image2.size
 
-    # Update new sprite's JSON data to reflect the new position
-    for sprite_name, sprite_data in new_sprite_json.items():
-        # Update the `x` position for all new sprites to align with the left side (x = 0)
-        sprite_data['x'] = 0
-        
-        # Update the `y` position based on current_y
-        sprite_data['y'] = current_y
-        
-        # Add the new sprite's JSON data to the existing JSON
-        existing_sprite_json[sprite_name] = sprite_data
-        
-        # Increment current_y by the height of the new sprite for the next one
-        current_y += sprite_data['height']  # Assuming all new sprites have the same height
+    # Create a new image with the combined height (for vertical merge)
+    merged_image = Image.new('RGBA', (max(width1, width2), height1 + height2))
 
-    # Save the updated sprite sheet
-    new_sprite_sheet.save(output_sprite_path)
-    
-    # Save the updated JSON file
-    with open(output_json_path, 'w') as f:
-        json.dump(existing_sprite_json, f, indent=4)
+    # Paste the two images into the new merged image
+    merged_image.paste(image1, (0, 0))
+    merged_image.paste(image2, (0, height1))
+
+    # Adjust y values in the second JSON to account for the height of the first image
+    for icon in sprite_json_2.values():
+        icon['y'] += height1
+
+    # Merge the two JSON objects
+    merged_json = {**sprite_json_1, **sprite_json_2}
+
+    # Save the merged image
+    merged_image.save(output_image_path)
+
+    # Save the merged JSON
+    with open(output_json_path, 'w') as f_out:
+        json.dump(merged_json, f_out, indent=4)
+
+    print(f"Merged sprite image saved as {output_image_path}")
+    print(f"Merged sprite JSON saved as {output_json_path}")
 
 # Example usage
-append_sprite_and_json_vertically(
-    existing_sprite_path='./vstyles/topo_backup/sprite@2x.png',
-    new_sprite_path='./vstyles/vnsprite/sprite@2x.png',
+merge_sprites_and_json(
+    sprite_image_1_path='./vstyles/new/sprite@2x.png',
+    json_1_path='./vstyles/new/sprite@2x.json',
    
-    existing_json_path='./vstyles/topo_backup/sprite@2x.json',
-    new_json_path='./vstyles/vnsprite/sprite@2x.json',
+    sprite_image_2_path='./vstyles/esrisprite/sprite@2x.png',
+    json_2_path='./vstyles/esrisprite/sprite@2x.json',
    
-    output_sprite_path='./vstyles/topography/sprite@2x.png',
-    output_json_path='./vstyles/topography/sprite@2x.json',
-
-    new_sprite_name='vsprite'
+    output_image_path='./vstyles/topography/sprite@2x.png',
+    output_json_path='./vstyles/topography/sprite@2x.json'
 )

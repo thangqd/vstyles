@@ -14,8 +14,7 @@ def create_sprite_from_folder(folder_path, output_image_path, json_output_path, 
     # Open all images
     images = [Image.open(img) for img in image_list]
 
-    # Assuming all images are 32x32
-    image_width, image_height = 32, 32
+    image_width, image_height = 16,16
 
     # Calculate total rows needed
     total_images = len(images)
@@ -58,7 +57,7 @@ def create_sprite_from_folder(folder_path, output_image_path, json_output_path, 
     print(f"JSON file saved at {json_output_path}")
 
 # Example usage
-folder_path = "./vstyles/vnsprite/32"  # Replace with your folder path
+folder_path = "./vstyles/vnsprite/16"  # Replace with your folder path
 output_image_path = "./vstyles/vnsprite/sprite.png"
 json_output_path = "./vstyles/vnsprite/sprite.json"
-create_sprite_from_folder(folder_path, output_image_path, json_output_path, images_per_row=10, padding=5)
+create_sprite_from_folder(folder_path, output_image_path, json_output_path, images_per_row=10, padding=2)

@@ -1,0 +1,66 @@
+{
+    "tilejson": "2.2.0",
+    "scheme": "xyz",
+    "tiles": [
+      "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
+    ],
+    "attribution": "Techcraft",
+    "center": [113.2361, 10.7092, 7],
+    "description": "Vietnam Islands",
+    "format": "pbf",
+    "maxzoom": 14,
+    "minzoom": 0,
+    "name": "vn_islands",
+    "vector_layers": [
+      {
+        "id": "vn_islands_point",
+        "description": "",
+        "fields": {
+          "area": "Number",
+          "code": "String",
+          "dist_code": "String",
+          "dist_name": "String",
+          "islandname": "String",
+          "islandname_1": "String",
+          "level": "String",
+          "name": "String",
+          "prov_code": "String",
+          "prov_name": "String",
+          "region": "String"
+        }
+      },
+      {
+        "id": "vn_marine",
+        "description": "",
+        "fields": {
+          "gid": "Number",
+          "name": "String"
+        }
+      },
+      {
+        "id": "vn_islands",
+        "description": "",
+        "fields": {
+          "area": "Number",
+          "code": "String",
+          "dist_code": "String",
+          "dist_name": "String",
+          "islandname": "String",
+          "islandname_1": "String",
+          "level": "String",
+          "name": "String",
+          "prov_code": "String",
+          "prov_name": "String",
+          "region": "String"
+        }
+      },
+      {
+        "id": "vn_islands_name",
+        "description": "",
+        "fields": {
+          "gid": "Number",
+          "name": "String"
+        }
+      }
+    ]
+  }

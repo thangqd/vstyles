@@ -1,6 +1,6 @@
 {
     "tilejson": "2.2.0",
-    "scheme": "tms",
+    "scheme": "xyz",
     "tiles": [
         "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"
     ],

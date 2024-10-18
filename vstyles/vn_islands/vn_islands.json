@@ -27,6 +27,7 @@
       "maxzoom": 14
     }
   },
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/topography/sprite",
   "glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -74,11 +75,11 @@
         "text-writing-mode": ["horizontal"],
         "text-size": {"base": 1, "stops": [[4, 12], [19, 20]]},
         "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
-        "icon-image": "conical",
+        "icon-image": "vietnam-5",
         "icon-allow-overlap": true,
         "icon-text-fit": "none",
         "symbol-avoid-edges": false,
-        "icon-size": 0.5,
+        "icon-size": 1,
         "text-anchor": "top",
         "text-justify": "center",
         "text-offset": [0, 0.6]

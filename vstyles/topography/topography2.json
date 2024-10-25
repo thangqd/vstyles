@@ -22,6 +22,7 @@
   "zoom": 1,
   "bearing": 0,
   "pitch": 0,
+  "terrain": {"source": "terrainSource", "exaggeration": 1},
   "sources": {
     "ne": {
       "type": "raster",
@@ -30,7 +31,23 @@
       ],
       "minzoom": 0,
       "maxzoom": 9
-    },  
+    },
+    "terrainSource": {
+      "type": "raster-dem",
+      "tiles": ["https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"]
+    },
+    "hillshadeSource": {
+      "type": "raster-dem",
+      "tiles": ["https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png"]
+    },
+    "terrainSource2": {
+      "type": "raster-dem",
+      "tiles": [
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 0,
+      "maxzoom": 6
+    },
     "openmaptiles": {
       "type": "vector",
       "tiles": [
@@ -81,6 +98,13 @@
       "maxzoom": 9,
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 0.5}
+    },
+    {
+      "id": "hills",
+      "type": "hillshade",
+      "source": "hillshadeSource",
+      "layout": {"visibility": "visible"},
+      "paint": {"hillshade-shadow-color": "#473B24"}
     },
     {
       "id": "Spot elevation",

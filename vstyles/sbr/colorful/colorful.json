@@ -16,6 +16,14 @@
 			"minzoom": 0,
 			"maxzoom": 9
 		},
+		"vn_islands": {
+      "type": "vector",
+      "tiles": [
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
+    },
 		"versatiles-shortbread": {
 			"tilejson": "3.0.0",
 			"attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
@@ -15796,6 +15804,80 @@
 				"text-halo-blur": 1
 			},
 			"minzoom": 12
-		}
+		},
+		{
+			"id": "vn_islands",
+			"type": "fill",
+			"source": "vn_islands",
+			"source-layer": "vn_islands",
+			"paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
+		  },
+		  {
+			"id": "vn_islands_point",
+			"type": "symbol",
+			"source": "vn_islands",
+			"source-layer": "vn_islands_point",
+			"minzoom": 6,
+			"layout": {
+			  "text-field": "{name}",
+			  "text-max-width": 10,
+			  "text-writing-mode": ["horizontal"],
+			  "text-size": {"base": 1, "stops": [[4, 10], [19, 18]]}
+			},
+			"paint": {
+			  "text-color": "#000000",
+			  "text-halo-color": "#fff",
+			  "text-halo-width": 2
+			}
+		  },
+		  {
+			"id": "vn_islands_name",
+			"type": "symbol",
+			"source": "vn_islands",
+			"source-layer": "vn_islands_name",
+			"minzoom": 1,
+			"layout": {
+			  "text-field": "{name}",
+			  "text-max-width": 10,
+			  "text-writing-mode": ["horizontal"],
+			  "text-size": {"base": 1, "stops": [[4, 12], [19, 20]]},
+			  "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+			  "icon-image": "vietnam-5",
+			  "icon-allow-overlap": true,
+			  "icon-text-fit": "none",
+			  "symbol-avoid-edges": false,
+			  "icon-size": 1,
+			  "text-anchor": "top",
+			  "text-justify": "center",
+			  "text-offset": [0, 0.6]
+			},
+			"paint": {
+			  "text-color": "#000000",
+			  "text-halo-color": "#fff",
+			  "text-halo-width": 2,
+			  "icon-translate-anchor": "map"
+			}
+		  },
+		  {
+			"id": "vn_marine",
+			"type": "symbol",
+			"source": "vn_islands",
+			"source-layer": "vn_marine",
+			"layout": {
+			  "text-field": "{name}",
+			  "text-transform": "uppercase",
+			  "text-size": {"stops": [[4, 16], [12, 40]]},
+			  "text-letter-spacing": {"stops": [[0, 0.1], [10, 0.5]]},
+			  "symbol-placement": "line",
+			  "symbol-z-order": "source"
+			},
+			"paint": {
+			  "text-color": "#111",
+			  "text-opacity": {"stops": [[0, 0.5], [10, 1]]},
+			  "text-halo-color": "#fff",
+			  "text-halo-width": {"stops": [[8, 1], [14, 2]]},
+			  "icon-opacity": {"stops": [[0, 0.5], [10, 1]]}
+			}
+		  }
 	]
 }

@@ -27,7 +27,10 @@
       "type": "vector",
       "tiles": [
         "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"
-      ]
+      ],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "scheme": "xyz"
     },
     "vn_islands": {
       "type": "vector",

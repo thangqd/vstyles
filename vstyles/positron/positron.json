@@ -31,7 +31,7 @@
       "scheme": "xyz"
     }
   },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/positron/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {

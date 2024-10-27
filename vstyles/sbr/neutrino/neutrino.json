@@ -5,8 +5,8 @@
 		"maputnik:renderer": "mbgljs",
 		"license": "https://creativecommons.org/publicdomain/zero/1.0/"
 	},
-	"glyphs": "https://tiles.versatiles.org/assets/fonts/{fontstack}/{range}.pbf",
-	"sprite": "https://tiles.versatiles.org/assets/sprites/sprites",
+	"glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
+	"sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/sbr/colorful/sprite",
 	"sources": {
 		"ne": {
 			"type": "raster",
@@ -2792,7 +2792,7 @@
 			"filter": [ "==", "kind", "motorway" ],
 			"layout": {
 				"text-field": "{ref}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 14, 8 ], [ 18, 10 ], [ 20, 16 ] ] }
@@ -2814,7 +2814,7 @@
 			"filter": [ "==", "kind", "pedestrian" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2836,7 +2836,7 @@
 			"filter": [ "==", "kind", "living_street" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2858,7 +2858,7 @@
 			"filter": [ "==", "kind", "residential" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2880,7 +2880,7 @@
 			"filter": [ "==", "kind", "unclassified" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2902,7 +2902,7 @@
 			"filter": [ "==", "kind", "tertiary" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2924,7 +2924,7 @@
 			"filter": [ "==", "kind", "secondary" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2946,7 +2946,7 @@
 			"filter": [ "==", "kind", "primary" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2968,7 +2968,7 @@
 			"filter": [ "==", "kind", "trunk" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -2990,7 +2990,7 @@
 			"filter": [ "==", "kind", "neighbourhood" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 14, 12 ] ] },
 				"text-transform": "uppercase"
 			},
@@ -3011,7 +3011,7 @@
 			"filter": [ "==", "kind", "quarter" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 13, 13 ] ] },
 				"text-transform": "uppercase"
 			},
@@ -3032,7 +3032,7 @@
 			"filter": [ "==", "kind", "suburb" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 11, 11 ], [ 13, 14 ] ] },
 				"text-transform": "uppercase"
 			},
@@ -3053,7 +3053,7 @@
 			"filter": [ "==", "kind", "hamlet" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 10, 11 ], [ 12, 14 ] ] }
 			},
 			"paint": {
@@ -3073,7 +3073,7 @@
 			"filter": [ "==", "kind", "village" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 9, 11 ], [ 12, 14 ] ] }
 			},
 			"paint": {
@@ -3093,7 +3093,7 @@
 			"filter": [ "==", "kind", "town" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 8, 11 ], [ 12, 14 ] ] }
 			},
 			"paint": {
@@ -3113,7 +3113,7 @@
 			"filter": [ "in", "admin_level", 4, "4" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_bold" ],
+				"text-font": [ "Noto Sans Bold" ],
 				"text-transform": "uppercase",
 				"text-size": { "stops": [ [ 5, 8 ], [ 8, 12 ] ] }
 			},
@@ -3134,7 +3134,7 @@
 			"filter": [ "==", "kind", "city" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 7, 11 ], [ 10, 14 ] ] }
 			},
 			"paint": {
@@ -3154,7 +3154,7 @@
 			"filter": [ "==", "kind", "state_capital" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 6, 11 ], [ 10, 15 ] ] }
 			},
 			"paint": {
@@ -3174,7 +3174,7 @@
 			"filter": [ "==", "kind", "capital" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 5, 12 ], [ 10, 16 ] ] }
 			},
 			"paint": {
@@ -3194,7 +3194,7 @@
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ "<=", "way_area", 10000000 ] ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_bold" ],
+				"text-font": [ "Noto Sans Bold" ],
 				"text-transform": "uppercase",
 				"text-size": { "stops": [ [ 4, 11 ], [ 5, 14 ] ] }
 			},
@@ -3215,7 +3215,7 @@
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ "<", "way_area", 90000000 ], [ ">", "way_area", 10000000 ] ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_bold" ],
+				"text-font": [ "Noto Sans Bold" ],
 				"text-transform": "uppercase",
 				"text-size": { "stops": [ [ 3, 11 ], [ 5, 15 ] ] }
 			},
@@ -3236,7 +3236,7 @@
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ ">=", "way_area", 90000000 ] ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_bold" ],
+				"text-font": [ "Noto Sans Bold" ],
 				"text-transform": "uppercase",
 				"text-size": { "stops": [ [ 2, 11 ], [ 5, 16 ] ] }
 			},

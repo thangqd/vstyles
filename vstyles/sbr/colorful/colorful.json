@@ -14444,7 +14444,7 @@
 			"layout": {
 				"text-field": "{ref}",
 				"text-font": [
-					"noto_sans_bold"
+					"Noto Sans Bold"
 				],
 				"symbol-placement": "line",
 				"text-anchor": "center",

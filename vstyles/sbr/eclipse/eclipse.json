@@ -5,8 +5,8 @@
 		"maputnik:renderer": "mbgljs",
 		"license": "https://creativecommons.org/publicdomain/zero/1.0/"
 	},
-	"glyphs": "https://tiles.versatiles.org/assets/fonts/{fontstack}/{range}.pbf",
-	"sprite": "https://tiles.versatiles.org/assets/sprites/sprites",
+	"glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
+	"sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/sbr/colorful/sprite",
 	"sources": {
 		"vn_islands": {
 			"type": "vector",
@@ -3625,7 +3625,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "amenity" ], "arts_centre", "icon-art_gallery", "atm", "icon-atm", "bank", "icon-bank", "bar", "icon-bar", "bench", "icon-bench", "bicycle_rental", "icon-bicycle_share", "biergarten", "icon-beergarden", "cafe", "icon-cafe", "car_rental", "icon-car_rental", "car_sharing", "icon-car_rental", "car_wash", "icon-car_wash", "cinema", "icon-cinema", "college", "icon-college", "community_centre", "icon-community", "dentist", "icon-dentist", "doctors", "icon-doctor", "dog_park", "icon-dog_park", "drinking_water", "icon-drinking_water", "embassy", "icon-embassy", "fast_food", "icon-fast_food", "fire_station", "icon-fire_station", "fountain", "icon-fountain", "grave_yard", "icon-cemetery", "hospital", "icon-hospital", "hunting_stand", "icon-huntingstand", "library", "icon-library", "marketplace", "icon-marketplace", "nightclub", "icon-nightclub", "nursing_home", "icon-nursinghome", "pharmacy", "icon-pharmacy", "place_of_worship", "icon-place_of_worship", "playground", "icon-playground", "police", "icon-police", "post_box", "icon-postbox", "post_office", "icon-post", "prison", "icon-prison", "pub", "icon-beer", "recycling", "icon-recycling", "restaurant", "icon-restaurant", "school", "icon-school", "shelter", "icon-shelter", "telephone", "icon-telephone", "theatre", "icon-theatre", "toilets", "icon-toilet", "townhall", "icon-town_hall", "vending_machine", "icon-vendingmachine", "veterinary", "icon-veterinary", "waste_basket", "icon-waste_basket", "unknown" ]
 			},
 			"paint": {
@@ -3646,7 +3646,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "leisure" ], "golf_course", "icon-golf", "ice_rink", "icon-icerink", "pitch", "icon-pitch", "stadium", "icon-stadium", "swimming_pool", "icon-swimming", "water_park", "icon-waterpark", "icon-sports" ]
 			},
 			"paint": {
@@ -3667,7 +3667,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "tourism" ], "chalet", "icon-chalet", "information", "transport-information", "picnic_site", "icon-picnic_site", "viewpoint", "icon-viewpoint", "zoo", "icon-zoo", "unknown" ]
 			},
 			"paint": {
@@ -3688,7 +3688,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "shop" ], "alcohol", "icon-alcohol_shop", "bakery", "icon-bakery", "beauty", "icon-beauty", "beverages", "icon-beverages", "books", "icon-books", "butcher", "icon-butcher", "chemist", "icon-chemist", "clothes", "icon-clothes", "doityourself", "icon-doityourself", "dry_cleaning", "icon-drycleaning", "florist", "icon-florist", "furniture", "icon-furniture", "garden_centre", "icon-garden_centre", "general", "icon-shop", "gift", "icon-gift", "greengrocer", "icon-greengrocer", "hairdresser", "icon-hairdresser", "hardware", "icon-hardware", "jewelry", "icon-jewelry_store", "kiosk", "icon-kiosk", "laundry", "icon-laundry", "newsagent", "icon-newsagent", "optican", "icon-optician", "outdoor", "icon-outdoor", "shoes", "icon-shoes", "sports", "icon-sports", "stationery", "icon-stationery", "toys", "icon-toys", "travel_agency", "icon-travel_agent", "video", "icon-video", "icon-shop" ]
 			},
 			"paint": {
@@ -3709,7 +3709,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "man_made" ], "lighthouse", "icon-lighthouse", "surveillance", "icon-surveillance", "tower", "icon-observation_tower", "watermill", "icon-watermill", "windmill", "icon-windmill", "unknown" ]
 			},
 			"paint": {
@@ -3730,7 +3730,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "historic" ], "artwork", "icon-artwork", "castle", "icon-castle", "monument", "icon-monument", "wayside_shrine", "icon-shrine", "icon-historic" ]
 			},
 			"paint": {
@@ -3751,7 +3751,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"icon-image": [ "match", [ "get", "emergency" ], "defibrillator", "icon-defibrillator", "fire_hydrant", "icon-hydrant", "phone", "icon-emergency_phone", "unknown" ]
 			},
 			"paint": {
@@ -3772,7 +3772,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ]
+				"text-font": [ "Noto Sans Regular" ]
 			},
 			"paint": {
 				"icon-opacity": { "stops": [ [ 16, 0 ], [ 17, 0.4 ] ] },
@@ -3792,7 +3792,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 19, 0.5 ], [ 20, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-optional": true,
-				"text-font": [ "noto_sans_regular" ]
+				"text-font": [ "Noto Sans Regular" ]
 			},
 			"paint": {
 				"icon-opacity": { "stops": [ [ 16, 0 ], [ 17, 0.4 ] ] },
@@ -3900,7 +3900,7 @@
 			"filter": [ "has", "housenumber" ],
 			"layout": {
 				"text-field": "{housenumber}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "point",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 17, 8 ], [ 19, 10 ] ] }
@@ -3922,7 +3922,7 @@
 			"filter": [ "==", "kind", "motorway" ],
 			"layout": {
 				"text-field": "{ref}",
-				"text-font": [ "noto_sans_bold" ],
+				"text-font": [ "Noto Sans Bold" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 14, 10 ], [ 18, 12 ], [ 20, 16 ] ] }
@@ -3944,7 +3944,7 @@
 			"filter": [ "==", "kind", "pedestrian" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -3966,7 +3966,7 @@
 			"filter": [ "==", "kind", "living_street" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -3988,7 +3988,7 @@
 			"filter": [ "==", "kind", "residential" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -4010,7 +4010,7 @@
 			"filter": [ "==", "kind", "unclassified" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -4032,7 +4032,7 @@
 			"filter": [ "==", "kind", "tertiary" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -4054,7 +4054,7 @@
 			"filter": [ "==", "kind", "secondary" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -4076,7 +4076,7 @@
 			"filter": [ "==", "kind", "primary" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -4098,7 +4098,7 @@
 			"filter": [ "==", "kind", "trunk" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
 				"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
@@ -4120,7 +4120,7 @@
 			"filter": [ "==", "kind", "neighbourhood" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 14, 12 ] ] },
 				"text-transform": "uppercase"
 			},
@@ -4141,7 +4141,7 @@
 			"filter": [ "==", "kind", "quarter" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 13, 13 ] ] },
 				"text-transform": "uppercase"
 			},
@@ -4162,7 +4162,7 @@
 			"filter": [ "==", "kind", "suburb" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 11, 11 ], [ 13, 14 ] ] },
 				"text-transform": "uppercase"
 			},
@@ -4183,7 +4183,7 @@
 			"filter": [ "==", "kind", "hamlet" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 10, 11 ], [ 12, 14 ] ] }
 			},
 			"paint": {
@@ -4203,7 +4203,7 @@
 			"filter": [ "==", "kind", "village" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 9, 11 ], [ 12, 14 ] ] }
 			},
 			"paint": {
@@ -4223,7 +4223,7 @@
 			"filter": [ "==", "kind", "town" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 8, 11 ], [ 12, 14 ] ] }
 			},
 			"paint": {
@@ -4243,7 +4243,7 @@
 			"filter": [ "in", "admin_level", 4, "4" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
 				"text-offset": [ 0, 0.2 ],
@@ -4268,7 +4268,7 @@
 			"filter": [ "==", "kind", "city" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 7, 11 ], [ 10, 14 ] ] }
 			},
 			"paint": {
@@ -4288,7 +4288,7 @@
 			"filter": [ "==", "kind", "state_capital" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 6, 11 ], [ 10, 15 ] ] }
 			},
 			"paint": {
@@ -4308,7 +4308,7 @@
 			"filter": [ "==", "kind", "capital" ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": { "stops": [ [ 5, 12 ], [ 10, 16 ] ] }
 			},
 			"paint": {
@@ -4328,7 +4328,7 @@
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ "<=", "way_area", 10000000 ] ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
 				"text-offset": [ 0, 0.2 ],
@@ -4353,7 +4353,7 @@
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ "<", "way_area", 90000000 ], [ ">", "way_area", 10000000 ] ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
 				"text-offset": [ 0, 0.2 ],
@@ -4378,7 +4378,7 @@
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ ">=", "way_area", 90000000 ] ],
 			"layout": {
 				"text-field": "{name}",
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
 				"text-offset": [ 0, 0.2 ],
@@ -4409,7 +4409,7 @@
 				"icon-padding": 5,
 				"symbol-avoid-edges": true,
 				"icon-image": "marking-arrow",
-				"text-font": [ "noto_sans_regular" ]
+				"text-font": [ "Noto Sans Regular" ]
 			},
 			"minzoom": 16,
 			"paint": {
@@ -4431,7 +4431,7 @@
 				"icon-padding": 5,
 				"symbol-avoid-edges": true,
 				"icon-image": "marking-arrow",
-				"text-font": [ "noto_sans_regular" ]
+				"text-font": [ "Noto Sans Regular" ]
 			},
 			"minzoom": 16,
 			"paint": {
@@ -4450,7 +4450,7 @@
 				"icon-size": { "stops": [ [ 16, 0.5 ], [ 18, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",
@@ -4477,7 +4477,7 @@
 				"icon-size": { "stops": [ [ 15, 0.5 ], [ 17, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",
@@ -4504,7 +4504,7 @@
 				"icon-size": { "stops": [ [ 14, 0.5 ], [ 16, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",
@@ -4531,7 +4531,7 @@
 				"icon-size": { "stops": [ [ 14, 0.5 ], [ 16, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",
@@ -4558,7 +4558,7 @@
 				"icon-size": { "stops": [ [ 13, 0.5 ], [ 15, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",
@@ -4585,7 +4585,7 @@
 				"icon-size": { "stops": [ [ 13, 0.5 ], [ 15, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",
@@ -4612,7 +4612,7 @@
 				"icon-size": { "stops": [ [ 12, 0.5 ], [ 14, 1 ] ] },
 				"symbol-placement": "point",
 				"icon-keep-upright": true,
-				"text-font": [ "noto_sans_regular" ],
+				"text-font": [ "Noto Sans Regular" ],
 				"text-size": 10,
 				"icon-anchor": "bottom",
 				"text-anchor": "top",

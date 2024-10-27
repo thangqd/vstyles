@@ -32,7 +32,7 @@
     }
   },
   "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/positron/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=j10Zjy4taAQRqFFqV18c",
   "layers": [
     {
       "id": "background",

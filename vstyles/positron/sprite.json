@@ -1,16 +1,198 @@
 {
-  "circle-11": {
-    "height": 17,
-    "pixelRatio": 1,
-    "width": 17,
-    "x": 0,
-    "y": 0
-  },
-  "star-11": {
-    "height": 17,
-    "pixelRatio": 1,
-    "width": 17,
-    "x": 17,
-    "y": 0
-  }
+    "circle-11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 0,
+        "y": 0
+    },
+    "star-11": {
+        "height": 17,
+        "pixelRatio": 1,
+        "width": 17,
+        "x": 17,
+        "y": 0
+    },
+    "asian-hat-1": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 0,
+        "y": 17
+    },
+    "asian-hat": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 18,
+        "y": 17
+    },
+    "conical": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 36,
+        "y": 17
+    },
+    "flag-1": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 54,
+        "y": 17
+    },
+    "flag-2": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 72,
+        "y": 17
+    },
+    "flag": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 90,
+        "y": 17
+    },
+    "pagoda": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 108,
+        "y": 17
+    },
+    "travel": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 126,
+        "y": 17
+    },
+    "vietnam-1": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 144,
+        "y": 17
+    },
+    "vietnam-10": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 162,
+        "y": 17
+    },
+    "vietnam-11": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 0,
+        "y": 35
+    },
+    "vietnam-12": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 18,
+        "y": 35
+    },
+    "vietnam-13": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 36,
+        "y": 35
+    },
+    "vietnam-14": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 54,
+        "y": 35
+    },
+    "vietnam-2": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 72,
+        "y": 35
+    },
+    "vietnam-3": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 90,
+        "y": 35
+    },
+    "vietnam-4": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 108,
+        "y": 35
+    },
+    "vietnam-5": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 126,
+        "y": 35
+    },
+    "vietnam-6": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 144,
+        "y": 35
+    },
+    "vietnam-7": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 162,
+        "y": 35
+    },
+    "vietnam-8": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 0,
+        "y": 53
+    },
+    "vietnam-9": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 18,
+        "y": 53
+    },
+    "vietnam": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 36,
+        "y": 53
+    },
+    "vietnamese-1": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 54,
+        "y": 53
+    },
+    "vietnamese": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 72,
+        "y": 53
+    },
+    "world": {
+        "width": 16,
+        "height": 16,
+        "pixelRatio": 1,
+        "x": 90,
+        "y": 53
+    }
 }

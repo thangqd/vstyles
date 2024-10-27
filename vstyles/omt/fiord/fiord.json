@@ -41,7 +41,7 @@
       "maxzoom": 14
     }
   },
-  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fiord/sprite",
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/omt/fiord/sprite",
   "glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {

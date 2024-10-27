@@ -39,7 +39,7 @@
       "maxzoom": 14
     }
   },
-  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/positron/sprite",
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/omt/positron/sprite",
   "glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {

@@ -31,8 +31,8 @@
       "scheme": "xyz"
     }
   },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/topography/sprite",
+  "glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

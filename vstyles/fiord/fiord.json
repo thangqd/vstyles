@@ -25,7 +25,9 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"
+      "tiles": [
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"
+      ]
     },
     "vn_islands": {
       "type": "vector",

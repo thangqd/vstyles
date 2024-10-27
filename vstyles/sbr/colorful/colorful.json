@@ -35,18 +35,6 @@
 			"maxzoom": 14,
 			"vector_layers": [
 				{
-					"id": "ne",
-					"type": "raster",
-					"source": "ne",
-					"maxzoom": 9,
-					"layout": {
-						"visibility": "visible"
-					},
-					"paint": {
-						"raster-opacity": 0.5
-					}
-				},
-				{
 					"id": "place_labels",
 					"fields": {
 						"kind": "String",
@@ -358,6 +346,18 @@
 			"type": "background",
 			"paint": {
 				"background-color": "#f9f4ee"
+			}
+		},
+		{
+			"id": "ne",
+			"type": "raster",
+			"source": "ne",
+			"maxzoom": 9,
+			"layout": {
+				"visibility": "visible"
+			},
+			"paint": {
+				"raster-opacity": 0.5
 			}
 		},
 		{

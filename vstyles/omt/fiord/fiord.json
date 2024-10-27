@@ -1028,7 +1028,7 @@
       "type": "fill",
       "source": "vn_islands",
       "source-layer": "vn_islands",
-      "paint": {"fill-color": "rgb(234, 234, 230)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgb(64, 75, 101)", "fill-opacity": 1}
     },
     {
       "id": "vn_islands_point",

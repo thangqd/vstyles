@@ -10809,6 +10809,6 @@
           }
       }
   ],
-  "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
-  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf"
+  "sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/ptm/light/sprite",
+  "glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf"
 }

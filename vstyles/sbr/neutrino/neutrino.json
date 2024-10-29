@@ -7,16 +7,7 @@
 	},
 	"glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
 	"sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/sbr/colorful/sprite",
-	"sources": {
-		"ne": {
-			"type": "raster",
-			"tiles": [
-				"https://server.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
-			],
-			"minzoom": 0,
-			"maxzoom": 9
-		},
-		
+	"sources": {			
 		"vn_islands": {
 			"type": "vector",
 			"tiles": [
@@ -352,19 +343,7 @@
 			"paint": {
 				"background-color": "#f6f0f6"
 			}
-		},
-		{
-			"id": "ne",
-			"type": "raster",
-			"source": "ne",
-			"maxzoom": 9,
-			"layout": {
-				"visibility": "visible"
-			},
-			"paint": {
-				"raster-opacity": 0.5
-			}
-		},
+		},		
 		{
 			"source": "versatiles-shortbread",
 			"id": "water-ocean",

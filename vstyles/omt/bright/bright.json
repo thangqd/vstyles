@@ -22,15 +22,7 @@
   "zoom": 1,
   "bearing": 0,
   "pitch": 0,
-  "sources": {
-    "ne": {
-      "type": "raster",
-      "tiles": [
-        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/ne_grey/{z}/{x}/{y}.png"
-      ],
-      "minzoom": 0,
-      "maxzoom": 6
-    },
+  "sources": {  
     "openmaptiles": {
       "type": "vector",
       "tiles": [
@@ -48,15 +40,7 @@
       "type": "background",
       "paint": {"background-color": "#f8f4f0"}
     },
-    {
-      "id": "ne",
-      "type": "raster",
-      "source": "ne",
-      "maxzoom": 6,
-      "paint": {"raster-opacity": 0.5}
-    },
-    
-    {
+  {
       "id": "landcover-glacier",
       "type": "fill",
       "metadata": {"mapbox:group": "1444849388993.3071"},

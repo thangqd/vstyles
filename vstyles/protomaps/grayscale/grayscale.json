@@ -10,15 +10,7 @@
       "minzoom": 0,
       "maxzoom": 14,
       "scheme": "xyz"
-    },
-    "ne": {
-      "type": "raster",
-      "tiles": [
-        "https://server.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
-      ],
-      "minzoom": 0,
-      "maxzoom": 9
-    }
+    }    
   },
   "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/grayscale",
   "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
@@ -27,15 +19,8 @@
       "id": "background",
       "type": "background",
       "paint": {"background-color": "#a3a3a3"}
-    },
-    {
-      "id": "ne",
-      "type": "raster",
-      "source": "ne",
-      "maxzoom": 9,
-      "layout": {"visibility": "visible"},
-      "paint": {"raster-opacity": 0.5}
-    },
+    },  
+   
     {
       "id": "earth",
       "type": "fill",

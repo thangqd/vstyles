@@ -26,7 +26,7 @@
     "ne": {
       "type": "raster",
       "tiles": [
-        "https://server.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
+        "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/ne_grey/{z}/{x}/{y}.png"
       ],
       "minzoom": 0,
       "maxzoom": 9
@@ -78,7 +78,7 @@
       "id": "ne",
       "type": "raster",
       "source": "ne",
-      "maxzoom": 9,
+      "maxzoom": 6,
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 0.5}
     },

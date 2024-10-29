@@ -2,10 +2,10 @@
   "version": 8,
   "metadata": {"maputnik:renderer": "mlgljs"},
   "sources": {
-    "protomaps": {
+  "protomaps": {
       "type": "vector",
       "tiles": [
-        "https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.mvt?key=d828297496b11844"
+        "https://pmtiles.sovereignsolutions.app/vietnam/{z}/{x}/{y}.mvt"
       ],
       "minzoom": 0,
       "maxzoom": 14,

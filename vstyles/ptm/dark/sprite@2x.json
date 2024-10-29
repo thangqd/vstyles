@@ -1,0 +1,324 @@
+{
+    "aerodrome": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 0,
+        "y": 0
+    },
+    "animal": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 38,
+        "y": 0
+    },
+    "beach": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 76,
+        "y": 0
+    },
+    "bench": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 114,
+        "y": 0
+    },
+    "bus_stop": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 152,
+        "y": 0
+    },
+    "drinking_water": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 190,
+        "y": 0
+    },
+    "ferry_terminal": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 0,
+        "y": 38
+    },
+    "forest": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 0,
+        "y": 76
+    },
+    "garden": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 0,
+        "y": 114
+    },
+    "library": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 0,
+        "y": 152
+    },
+    "marina": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 0,
+        "y": 190
+    },
+    "park": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 38,
+        "y": 38
+    },
+    "peak": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 76,
+        "y": 38
+    },
+    "school": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 114,
+        "y": 38
+    },
+    "stadium": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 152,
+        "y": 38
+    },
+    "toilets": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 190,
+        "y": 38
+    },
+    "townspot": {
+        "height": 20,
+        "pixelRatio": 2,
+        "width": 20,
+        "x": 228,
+        "y": 0
+    },
+    "train_station": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 38,
+        "y": 76
+    },
+    "university": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 38,
+        "y": 114
+    },
+    "zoo": {
+        "height": 38,
+        "pixelRatio": 2,
+        "width": 38,
+        "x": 38,
+        "y": 152
+    },
+    "asian-hat-1": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 0,
+        "y": 228
+    },
+    "asian-hat": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 37,
+        "y": 228
+    },
+    "conical": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 74,
+        "y": 228
+    },
+    "flag-1": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 111,
+        "y": 228
+    },
+    "flag-2": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 148,
+        "y": 228
+    },
+    "flag": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 185,
+        "y": 228
+    },
+    "pagoda": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 222,
+        "y": 228
+    },
+    "travel": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 259,
+        "y": 228
+    },
+    "vietnam-1": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 296,
+        "y": 228
+    },
+    "vietnam-10": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 333,
+        "y": 228
+    },
+    "vietnam-11": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 0,
+        "y": 265
+    },
+    "vietnam-12": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 37,
+        "y": 265
+    },
+    "vietnam-13": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 74,
+        "y": 265
+    },
+    "vietnam-14": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 111,
+        "y": 265
+    },
+    "vietnam-2": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 148,
+        "y": 265
+    },
+    "vietnam-3": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 185,
+        "y": 265
+    },
+    "vietnam-4": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 222,
+        "y": 265
+    },
+    "vietnam-5": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 259,
+        "y": 265
+    },
+    "vietnam-6": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 296,
+        "y": 265
+    },
+    "vietnam-7": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 333,
+        "y": 265
+    },
+    "vietnam-8": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 0,
+        "y": 302
+    },
+    "vietnam-9": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 37,
+        "y": 302
+    },
+    "vietnam": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 74,
+        "y": 302
+    },
+    "vietnamese-1": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 111,
+        "y": 302
+    },
+    "vietnamese": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 148,
+        "y": 302
+    },
+    "world": {
+        "width": 32,
+        "height": 32,
+        "pixelRatio": 1,
+        "x": 185,
+        "y": 302
+    }
+}

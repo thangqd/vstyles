@@ -3,9 +3,7 @@
   "sources": {
    "protomaps": {
       "type": "vector",
-      "tiles": [
-        "https://pmtiles.sovereignsolutions.app/vietnam/{z}/{x}/{y}.mvt"
-      ],
+      "url": "pmtiles://https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam_pmtiles/vietnam.pmtiles",
       "minzoom": 0,
       "maxzoom": 14,
       "scheme": "xyz"

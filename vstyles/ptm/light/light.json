@@ -4,7 +4,7 @@
     "protomaps": {
       "type": "vector",
       "tiles": [
-        "https://pmtiles.sovereignsolutions.app/vietnam/{z}/{x}/{y}.mvt"
+        "https://pmtiles.ndms2.sovereignsolutions.app/vietnam/{z}/{x}/{y}.mvt"
       ],
       "minzoom": 0,
       "maxzoom": 14,
@@ -14,6 +14,7 @@
         "type": "vector",
         "tiles": [
           "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vn_islands/{z}/{x}/{y}.pbf"
+          
         ],
         "minzoom": 0,
         "maxzoom": 14

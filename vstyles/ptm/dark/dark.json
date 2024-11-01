@@ -5,7 +5,7 @@
     "protomaps": {
       "type": "vector",
       "tiles": [
-        "https://pmtiles.ndms2.sovereignsolutions.app/vietnam/{z}/{x}/{y}.mvt"
+        "https://pmtiles.sovereignsolutions.app/vietnam/{z}/{x}/{y}.mvt"
       ],
       "minzoom": 0,
       "maxzoom": 14,

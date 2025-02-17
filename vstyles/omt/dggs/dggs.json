@@ -21,7 +21,7 @@
     "maputnik:renderer": "mlgljs"
   },
   "sources": {
-      "openmaptiles": {
+    "openmaptiles": {
       "type": "vector",
       "tiles": [
         "https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam/{z}/{x}/{y}.pbf"
@@ -711,6 +711,26 @@
       }
     },
     {
+      "id": "boundary_state-copy",
+      "type": "line",
+      "metadata": {"mapbox:group": "a14c9607bc7954ba1df7205bf660433f"},
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "filter": ["==", "admin_level", 4],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "none"
+      },
+      "paint": {
+        "line-blur": 0.4,
+        "line-color": "rgb(230, 204, 207)",
+        "line-dasharray": [2, 2],
+        "line-opacity": 1,
+        "line-width": {"base": 1.3, "stops": [[3, 1], [22, 15]]}
+      }
+    },
+    {
       "id": "boundary_state",
       "type": "line",
       "metadata": {"mapbox:group": "a14c9607bc7954ba1df7205bf660433f"},
@@ -720,7 +740,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-blur": 0.4,
@@ -738,7 +758,11 @@
       "source-layer": "boundary",
       "maxzoom": 5,
       "filter": ["all", ["==", "admin_level", 2], ["!has", "claimed_by"]],
-      "layout": {"line-cap": "round", "line-join": "round"},
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
+      },
       "paint": {
         "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
         "line-color": "rgb(230, 204, 207)",
@@ -754,7 +778,11 @@
       "source-layer": "boundary",
       "minzoom": 5,
       "filter": ["==", "admin_level", 2],
-      "layout": {"line-cap": "round", "line-join": "round"},
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
+      },
       "paint": {
         "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
         "line-color": "rgb(230, 204, 207)",
@@ -1019,7 +1047,37 @@
         "text-font": ["Noto Sans Italic"],
         "text-size": {"base": 1, "stops": [[0, 9], [6, 11]]},
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": {
+          "base": 1,
+          "stops": [[3, "rgb(157,169,177)"], [4, "rgb(153, 153, 153)"]]
+        },
+        "text-halo-color": "rgba(236,236,234,0.7)",
+        "text-halo-width": 1.4
+      }
+    },
+    {
+      "id": "place_country_minor-copy",
+      "type": "symbol",
+      "metadata": {"mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"},
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "maxzoom": 8,
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "class", "country"],
+        [">=", "rank", 2],
+        ["has", "iso_a2"]
+      ],
+      "layout": {
+        "text-field": "{name:latin}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": {"base": 1, "stops": [[0, 10], [6, 12]]},
+        "text-transform": "uppercase",
+        "visibility": "none"
       },
       "paint": {
         "text-color": {
@@ -1049,7 +1107,7 @@
         "text-font": ["Noto Sans Regular"],
         "text-size": {"base": 1, "stops": [[0, 10], [6, 12]]},
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "text-color": {
@@ -1080,7 +1138,7 @@
         "text-font": ["Noto Sans Regular"],
         "text-size": {"base": 1.4, "stops": [[0, 10], [3, 12], [4, 14]]},
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "text-color": {

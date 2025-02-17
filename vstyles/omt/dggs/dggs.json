@@ -842,7 +842,7 @@
         "text-offset": [0.5, 0],
         "text-size": 10,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -868,7 +868,7 @@
         "text-offset": [0.5, 0.2],
         "text-size": 10,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "icon-opacity": 0.7,
@@ -896,7 +896,7 @@
         "text-offset": [0.5, 0.2],
         "text-size": 10,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "icon-opacity": 0.7,
@@ -928,7 +928,7 @@
         "text-offset": [0.5, 0.2],
         "text-size": 10,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "icon-opacity": 0.7,
@@ -960,7 +960,7 @@
         "text-offset": [0.5, 0.2],
         "text-size": 14,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "icon-opacity": 0.7,
@@ -997,7 +997,7 @@
         "text-offset": [0.5, 0.2],
         "text-size": 14,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "icon-opacity": 0.7,
@@ -1020,7 +1020,7 @@
         "text-font": ["Noto Sans Regular"],
         "text-size": 10,
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "text-color": "rgb(113, 129, 144)",

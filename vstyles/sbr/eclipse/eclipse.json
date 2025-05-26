@@ -6,7 +6,7 @@
 		"license": "https://creativecommons.org/publicdomain/zero/1.0/"
 	},
 	"glyphs": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/fonts/{fontstack}/{range}.pbf",
-	"sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/sbr/colorful/sprite",
+	"sprite": "https://raw.githubusercontent.com/thangqd/vstyles/main/vstyles/sbr/eclipse/sprite",
 	"sources": {
 		"vn_islands": {
 			"type": "vector",

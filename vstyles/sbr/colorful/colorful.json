@@ -20,7 +20,7 @@
 			"tilejson": "3.0.0",
 			"attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
 			"tiles": [
-				"https://map-api-new.sovereignsolutions.net/sovereign/v20240410/vietnam_sbr/{z}/{x}/{y}.pbf"
+				"https://tiles.versatiles.org/tiles/osm/{z}/{x}/{y}"
 			],
 			"type": "vector",
 			"scheme": "xyz",

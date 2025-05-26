@@ -5,7 +5,7 @@
     "protomaps": {
       "type": "vector",
       "tiles": [
-        "https://demo-bucket.protomaps.com/v4.pmtiles"
+        "https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.mvt?key=d828297496b11844"
       ],
       "minzoom": 0,
       "maxzoom": 14,
